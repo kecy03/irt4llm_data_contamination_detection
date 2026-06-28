@@ -172,3 +172,7 @@ python fine_tuned/baseline_test/common_base.py \
 ```
 
 The baseline scripts automatically save row-level outputs and summary JSON files under their result directories.
+
+## Acknowledgment
+
+This project builds on the EduCAT codebase. We thank [bigdata-ustc/EduCAT](https://github.com/bigdata-ustc/EduCAT) for releasing the original implementation.
