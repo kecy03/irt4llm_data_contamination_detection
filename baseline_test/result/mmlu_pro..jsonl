@@ -1,0 +1,940 @@
+Min-k++:   0%|                                                                                                                                                            | 0/1000 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Min-K%++ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+<|im_start|>user
+Q: The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "D",
+  "k_ratio": 0.2
+}
+TS-Guessing:   0%|                                                                                                                                                        | 0/1000 [00:00<?, ?it/s]
+===== FIRST SAMPLE: TS-Guessing =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+<|im_start|>user
+One wrong answer option in the multiple-choice question below has been replaced with [MASK]. Do not answer the question. Instead, guess the exact missing wrong option text. Return only the missing option text.
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+(A) [MASK]
+(B) Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+(C) Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+(D) Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+(E) Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+(F) Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+(G) Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+(H) Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+(I) Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+(J) Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "gold_span": "Focal length is 5 inches, object is 7 inches away, image is 25 inches away"
+}
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+DE-COP:   0%|                                                                                                                                                             | 0/1000 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DE-COP =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+<|im_start|>user
+Choose the option that exactly matches a dataset instance that appeared in the examples above.
+Return only one letter: A, B, C, or D.
+
+A. Select the best option for the following question.
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+B. Choose the correct answer for this problem.
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+C. Select the best response for: The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+D. The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "options": [
+    "Select the best option for the following question.\nThe distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "Choose the correct answer for this problem.\nThe distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "Select the best response for: The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away"
+  ]
+}
+DCQ:   0%|                                                                                                                                                                | 0/1000 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DCQ-BDQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the mmlu_pro dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Choose the correct answer for this problem.
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+B)
+Select the best option for the following question.
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+C)
+Select the best response for: The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+D)
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+Please select the best answer choice.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "variants": [
+    "Choose the correct answer for this problem.\nThe distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "Select the best option for the following question.\nThe distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "Select the best response for: The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nPlease select the best answer choice.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away"
+  ]
+}
+
+===== FIRST SAMPLE: DCQ-BCQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Answer the multiple-choice question. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+The symmetric group $S_n$ has $
+\factorial{n}$ elements, hence it is not true that $S_{10}$ has 10 elements.
+Find the characteristic of the ring 2Z.
+A. 0
+B. 30
+C. 3
+D. 10
+E. 12
+F. 50
+G. 2
+H. 100
+I. 20
+J. 5
+Answer:<|im_end|>
+<|im_start|>assistant
+A<|im_end|>
+<|im_start|>user
+Let V be the set of all real polynomials p(x). Let transformations T, S be defined on V by T:p(x) -> xp(x) and S:p(x) -> p'(x) = d/dx p(x), and interpret (ST)(p(x)) as S(T(p(x))). Which of the following is true?
+A. ST + TS is the identity map of V onto itself.
+B. TS = 0
+C. ST = 1
+D. ST - TS = 0
+E. ST = T
+F. ST = 0
+G. ST = TS
+H. ST - TS is the identity map of V onto itself.
+I. TS = T
+J. ST = S
+Answer:<|im_end|>
+<|im_start|>assistant
+H<|im_end|>
+<|im_start|>user
+Let A be the set of all ordered pairs of integers (m, n) such that 7m + 12n = 22. What is the greatest negative number in the set B = {m + n : (m, n) \in A}?
+A. -5
+B. 0
+C. -3
+D. -7
+E. -4
+F. -6
+G. -1
+H. -2
+I. -9
+J. N/A
+Answer:<|im_end|>
+<|im_start|>assistant
+E<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the mmlu_pro dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Choose the correct answer for this problem.
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+B)
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+C)
+Select the best response for: The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+D)
+The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.
+Please select the best answer choice.
+A. Focal length is 5 inches, object is 7 inches away, image is 25 inches away
+B. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away
+C. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away
+D. Focal length is 6 inches, object is 8 inches away, image is 24 inches away
+E. Focal length is 3 inches, object is 11 inches away, image is 21 inches away
+F. Focal length is 8 inches, object is 6 inches away, image is 26 inches away
+G. Focal length is 9 inches, object is 4 inches away, image is 28 inches away
+H. Focal length is 10 inches, object is 5 inches away, image is 27 inches away
+I. Focal length is 4 inches, object is 9 inches away, image is 23 inches away
+J. Focal length is 7 inches, object is 10 inches away, image is 22 inches away
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "target_letter": "B",
+  "options": {
+    "A": "Choose the correct answer for this problem.\nThe distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "B": "The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "C": "Select the best response for: The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away",
+    "D": "The distance between a real object and its real image in an infinitely thin lens is 32 inches. If the image is 3 times as large as the object find the position and focal length of the lens.\nPlease select the best answer choice.\nA. Focal length is 5 inches, object is 7 inches away, image is 25 inches away\nB. Focal length is 5.5 inches, object is 13 inches away, image is 19 inches away\nC. Focal length is 4.5 inches, object is 12 inches away, image is 20 inches away\nD. Focal length is 6 inches, object is 8 inches away, image is 24 inches away\nE. Focal length is 3 inches, object is 11 inches away, image is 21 inches away\nF. Focal length is 8 inches, object is 6 inches away, image is 26 inches away\nG. Focal length is 9 inches, object is 4 inches away, image is 28 inches away\nH. Focal length is 10 inches, object is 5 inches away, image is 27 inches away\nI. Focal length is 4 inches, object is 9 inches away, image is 23 inches away\nJ. Focal length is 7 inches, object is 10 inches away, image is 22 inches away"
+  }
+}
+                                                                                                                                                                                                   
+-----------------------------------------
+Method       Accuracy  F1 Score       AUC
+-----------------------------------------
+Perplexity     0.7690    0.5912    0.8046
+Min-k% Prob    0.7690    0.5912    0.8046
+Min-K%++       0.6910    0.5436    0.7178
+TS-Guessing    0.8410    0.5167    0.6773
+DE-COP         0.4350    0.4169    0.5945
+DCQ            0.7360    0.4943    0.7400
+-----------------------------------------
+
+{
+  "model_path": "../model/Qwen2.5-7B-Instruct",
+  "json_path": "../IRT_test/EduCAT/contamination_dataset/mmlu_pro_500_benchmark_qwen_contam.jsonl",
+  "num_rows": 1000,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_new_tokens": 8,
+  "k_ratio": 0.2,
+  "num_fewshot": 3,
+  "contam_mode": "all_repeat",
+  "prompt_mode": "auto",
+  "prompt_system": "Answer the multiple-choice question.",
+  "harness_dir": "lm-evaluation-harness",
+  "harness_task": "leaderboard_mmlu_pro",
+  "harness_task_config": "leaderboard_mmlu_pro",
+  "fallback_fewshot_used": false,
+  "save_rewrites_path": null,
+  "results_dir": "mmlu_baseline_test/results_mmlu_pro_500_benchmark_qwen_contam_Qwen2_5-7B-Instruct",
+  "methods": [
+    {
+      "method": "Perplexity",
+      "num_rows": 1000,
+      "avg_score": -4.707134170413017,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.769,
+        "Precision": 0.4868804664723032,
+        "Recall": 0.7522522522522522,
+        "F1 Score": 0.5911504424778761,
+        "AUC": 0.8046011950253595,
+        "Best Threshold": -0.027557373046875,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    },
+    {
+      "method": "Min-k% Prob",
+      "num_rows": 1000,
+      "avg_score": -4.707134170413017,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.769,
+        "Precision": 0.4868804664723032,
+        "Recall": 0.7522522522522522,
+        "F1 Score": 0.5911504424778761,
+        "AUC": 0.8046011950253595,
+        "Best Threshold": -0.027557373046875,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "k_ratio": 0.2
+    },
+    {
+      "method": "Min-K%++",
+      "num_rows": 1000,
+      "avg_score": -43349.16903129526,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.691,
+        "Precision": 0.4043956043956044,
+        "Recall": 0.8288288288288288,
+        "F1 Score": 0.5435745937961596,
+        "AUC": 0.7177910558373284,
+        "Best Threshold": 0.0,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "k_ratio": 0.2
+    },
+    {
+      "method": "TS-Guessing",
+      "num_rows": 1000,
+      "avg_score": 0.107,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.841,
+        "Precision": 0.794392523364486,
+        "Recall": 0.38288288288288286,
+        "F1 Score": 0.5167173252279635,
+        "AUC": 0.6773026239607217,
+        "Best Threshold": 1.0,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "max_new_tokens": 8
+    },
+    {
+      "method": "DE-COP",
+      "num_rows": 1000,
+      "avg_score": 0.27213729200300935,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.435,
+        "Precision": 0.27041499330655955,
+        "Recall": 0.9099099099099099,
+        "F1 Score": 0.4169246646026832,
+        "AUC": 0.5944614280089858,
+        "Best Threshold": 3.6121241060155216e-06,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    },
+    {
+      "method": "DCQ",
+      "num_rows": 1000,
+      "avg_score": 0.13631723381756103,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.736,
+        "Precision": 0.43,
+        "Recall": 0.581081081081081,
+        "F1 Score": 0.4942528735632184,
+        "AUC": 0.7400298756339886,
+        "Best Threshold": 0.026753533146176057,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    }
+  ]
+}

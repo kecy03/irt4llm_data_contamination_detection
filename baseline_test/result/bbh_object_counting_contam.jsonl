@@ -1,0 +1,475 @@
+root@autodl-container-5d974b909f-f32608b8:~/autodl-tmp/llm_eva/baseline_test# python common_base.py --json_path ../IRT_test/EduCAT/1bbh_object_counting.json --model_path ../model/Qwen2.5-7B-Instruct --harness_dir lm-evaluation-harness --harness_task leaderboard_bbh_object_counting --print_first_prompts --contam_mode all_repeat --seed 42
+Loading model and tokenizer: ../model/Qwen2.5-7B-Instruct
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 339/339 [00:06<00:00, 51.89it/s]
+Perplexity:   0%|                                                                                                                                         | 0/248 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Perplexity =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "11"
+}
+Min-k:   0%|                                                                                                                                              | 0/248 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Min-k% Prob =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "11",
+  "k_ratio": 0.2
+}
+Min-k++:   0%|                                                                                                                                            | 0/248 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Min-K%++ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "11",
+  "k_ratio": 0.2
+}
+TS-Guessing:   0%|                                                                                                                                        | 0/248 [00:00<?, ?it/s]
+===== FIRST SAMPLE: TS-Guessing =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+One span in the object-counting question below has been replaced with [MASK]. Do not answer the question. Instead, recover the exact missing span from the original question text. Return only the missing span.
+Q: I have a microwave, a table, a fridge, a [MASK] an oven, a toaster, a couch, and four cars. How many objects do I have? A:
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "gold_span": "stove,"
+}
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+DE-COP:   0%|                                                                                                                                             | 0/248 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DE-COP =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Each option below is a complete object-counting question.
+Choose the option whose full wording exactly matches an example shown above.
+Do not answer any object-counting question. Compare the full question text only.
+Return only one letter: A, B, C, or D.
+
+A. Count the relevant objects in the following question.
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+B. Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. What number of objects do I have?
+A:
+C. Choose the correct count for this problem.
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+D. Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "options": [
+    "Count the relevant objects in the following question.\nQ: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:",
+    "Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. What number of objects do I have?\nA:",
+    "Choose the correct count for this problem.\nQ: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:",
+    "Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:"
+  ]
+}
+DCQ:   0%|                                                                                                                                                | 0/248 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DCQ-BDQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the bbh_object_counting dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. What number of objects do I have?
+A:
+
+B)
+Count the relevant objects in the following question.
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+
+C)
+Choose the correct count for this problem.
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+
+D)
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+Please provide the correct count.
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "variants": [
+    "Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. What number of objects do I have?\nA:",
+    "Count the relevant objects in the following question.\nQ: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:",
+    "Choose the correct count for this problem.\nQ: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:",
+    "Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:\nPlease provide the correct count."
+  ]
+}
+
+===== FIRST SAMPLE: DCQ-BCQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the bbh_object_counting dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+
+B)
+Count the relevant objects in the following question.
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+
+C)
+Choose the correct count for this problem.
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+
+D)
+Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?
+A:
+Please provide the correct count.
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "target_letter": "A",
+  "options": {
+    "A": "Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:",
+    "B": "Count the relevant objects in the following question.\nQ: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:",
+    "C": "Choose the correct count for this problem.\nQ: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:",
+    "D": "Q: I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\nA:\nPlease provide the correct count."
+  }
+}

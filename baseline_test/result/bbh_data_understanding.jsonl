@@ -1,0 +1,998 @@
+root@autodl-container-5d974b909f-f32608b8:~/autodl-tmp/llm_eva/baseline_test# python common_base.py --json_path ../IRT_test/EduCAT/contamination_dataset/bbh_date_understanding_benchmark_qwen_contam.jsonl --model_path ../model/Qwen2.5-7B-Instruct --harness_dir lm-evaluation-harness --harness_task leaderboard_bbh_date_understanding --print_first_prompts --contam_mode all_repeat
+Loading model and tokenizer: ../model/Qwen2.5-7B-Instruct
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████| 339/339 [00:04<00:00, 82.84it/s]
+Perplexity:   0%|                                                                                                   | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Perplexity =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "(B)"
+}
+Min-k:   0%|                                                                                                                                                               | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Min-k% Prob =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "(B)",
+  "k_ratio": 0.2
+}
+Min-k++:   0%|                                                                                                                                                             | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Min-K%++ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "(B)",
+  "k_ratio": 0.2
+}
+TS-Guessing:   0%|                                                                                                                                                         | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: TS-Guessing =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+One wrong answer option in the multiple-choice question below has been replaced with [MASK]. Do not answer the question. Instead, guess the exact missing wrong option text. Return only the missing option text.
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+A:
+(A) [MASK]
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "gold_span": "12/11/1937"
+}
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+DE-COP:   0%|                                                                                                                                                              | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DE-COP =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Choose the option that exactly matches a dataset instance that appeared in the examples above.
+Return only one letter: A, B, C, or D.
+
+A. Select the correct date for the following question.
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+B. Choose the correct date for this problem.
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+C. Q: Today is Christmas Eve of 1937. Select the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+D. Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "options": [
+    "Select the correct date for the following question.\nQ: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "Choose the correct date for this problem.\nQ: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "Q: Today is Christmas Eve of 1937. Select the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:"
+  ]
+}
+DCQ:   0%|                                                                                                                                                                 | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DCQ-BDQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the bbh_date_understanding dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Choose the correct date for this problem.
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+
+B)
+Select the correct date for the following question.
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+
+C)
+Q: Today is Christmas Eve of 1937. Select the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+
+D)
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+A:
+Please select the best answer choice.
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "variants": [
+    "Choose the correct date for this problem.\nQ: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "Select the correct date for the following question.\nQ: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "Q: Today is Christmas Eve of 1937. Select the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\nA:\nPlease select the best answer choice.\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937"
+  ]
+}
+
+===== FIRST SAMPLE: DCQ-BCQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Infer the date from context. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+Options:
+(A) 12/14/2026
+(B) 12/14/1950
+(C) 12/14/2007
+(D) 12/14/1937
+(E) 07/14/1938
+(F) 12/14/1988
+A:<|im_end|>
+<|im_start|>assistant
+(D)<|im_end|>
+<|im_start|>user
+Q: Tomorrow is 11/12/2019. What is the date one year ago from today in MM/DD/YYYY?
+Options:
+(A) 09/04/2018
+(B) 11/11/2018
+(C) 08/25/2018
+(D) 11/02/2018
+(E) 11/04/2018
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 01/11/1961
+(B) 01/03/1963
+(C) 01/18/1961
+(D) 10/14/1960
+(E) 01/03/1982
+(F) 12/03/1960
+A:<|im_end|>
+<|im_start|>assistant
+(B)<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the bbh_date_understanding dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+
+B)
+Select the correct date for the following question.
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+
+C)
+Q: Today is Christmas Eve of 1937. Select the date tomorrow in MM/DD/YYYY?
+Options:
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+A:
+
+D)
+Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?
+Options:
+A:
+Please select the best answer choice.
+(A) 12/11/1937
+(B) 12/25/1937
+(C) 01/04/1938
+(D) 12/04/1937
+(E) 12/25/2006
+(F) 07/25/1937
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "target_letter": "A",
+  "options": {
+    "A": "Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "B": "Select the correct date for the following question.\nQ: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "C": "Q: Today is Christmas Eve of 1937. Select the date tomorrow in MM/DD/YYYY?\nOptions:\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937\nA:",
+    "D": "Q: Today is Christmas Eve of 1937. What is the date tomorrow in MM/DD/YYYY?\nOptions:\nA:\nPlease select the best answer choice.\n(A) 12/11/1937\n(B) 12/25/1937\n(C) 01/04/1938\n(D) 12/04/1937\n(E) 12/25/2006\n(F) 07/25/1937"
+  }
+}
+                                                                                                                                                                                                   
+-----------------------------------------
+Method       Accuracy  F1 Score       AUC
+-----------------------------------------
+Perplexity     0.5360    0.3333    0.6305
+Min-k% Prob    0.5360    0.3333    0.6317
+Min-K%++       0.9280    0.7429    0.8947
+TS-Guessing    0.1280    0.2270    0.5000
+DE-COP         0.4840    0.3027    0.5874
+DCQ            0.7560    0.3838    0.7183
+-----------------------------------------
+
+{
+  "model_path": "../model/Qwen2.5-7B-Instruct",
+  "json_path": "../IRT_test/EduCAT/contamination_dataset/bbh_date_understanding_benchmark_qwen_contam.jsonl",
+  "num_rows": 250,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_new_tokens": 8,
+  "k_ratio": 0.2,
+  "num_fewshot": 3,
+  "contam_mode": "all_repeat",
+  "prompt_mode": "auto",
+  "prompt_system": "Infer the date from context.",
+  "harness_dir": "lm-evaluation-harness",
+  "harness_task": "leaderboard_bbh_date_understanding",
+  "harness_task_config": "leaderboard_bbh_date_understanding",
+  "fallback_fewshot_used": false,
+  "save_rewrites_path": null,
+  "results_dir": "mmlu_baseline_test/results_bbh_date_understanding_benchmark_qwen_contam_Qwen2_5-7B-Instruct",
+  "methods": [
+    {
+      "method": "Perplexity",
+      "num_rows": 250,
+      "avg_score": -1.337733221769333,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.536,
+        "Precision": 0.20422535211267606,
+        "Recall": 0.90625,
+        "F1 Score": 0.3333333333333333,
+        "AUC": 0.6305189220183486,
+        "Best Threshold": -0.08013916015625,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    },
+    {
+      "method": "Min-k% Prob",
+      "num_rows": 250,
+      "avg_score": -2.6754662084579466,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.536,
+        "Precision": 0.20422535211267606,
+        "Recall": 0.90625,
+        "F1 Score": 0.3333333333333333,
+        "AUC": 0.6316657110091743,
+        "Best Threshold": -0.1602783203125,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "k_ratio": 0.2
+    },
+    {
+      "method": "Min-K%++",
+      "num_rows": 250,
+      "avg_score": -246103.3011917965,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.928,
+        "Precision": 0.6842105263157895,
+        "Recall": 0.8125,
+        "F1 Score": 0.7428571428571429,
+        "AUC": 0.8947104357798165,
+        "Best Threshold": 0.0007713550998616968,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "k_ratio": 0.2
+    },
+    {
+      "method": "TS-Guessing",
+      "num_rows": 250,
+      "avg_score": 0.0,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.128,
+        "Precision": 0.128,
+        "Recall": 1.0,
+        "F1 Score": 0.22695035460992907,
+        "AUC": 0.5,
+        "Best Threshold": 0.0,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "max_new_tokens": 8
+    },
+    {
+      "method": "DE-COP",
+      "num_rows": 250,
+      "avg_score": 0.26159601658369613,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.484,
+        "Precision": 0.1830065359477124,
+        "Recall": 0.875,
+        "F1 Score": 0.3027027027027027,
+        "AUC": 0.5874426605504587,
+        "Best Threshold": 1.1876753609263463e-05,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    },
+    {
+      "method": "DCQ",
+      "num_rows": 250,
+      "avg_score": 0.08120910458473231,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.756,
+        "Precision": 0.2835820895522388,
+        "Recall": 0.59375,
+        "F1 Score": 0.3838383838383838,
+        "AUC": 0.7183199541284404,
+        "Best Threshold": 0.01188557207060398,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    }
+  ]
+}

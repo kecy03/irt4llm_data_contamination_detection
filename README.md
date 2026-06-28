@@ -1,25 +1,29 @@
 ﻿# IRT4LLM Data Contamination
 
-This repository contains an experimental pipeline for data contamination detection in large language models, built around IRT-based detection and several gray-box / black-box baselines.
+This repository contains an experimental pipeline for data contamination detection in large language models, centered on IRT-based detection, baseline comparison, and parameter-level contamination simulation.
 
 ## Project Structure
 
 - `scripts/`
-  Main experiment scripts for data download, contamination benchmark construction, IRT data building, training, and evaluation.
+  Main scripts for leaderboard data export, contamination benchmark construction, IRT data building, IRT training, and IRT evaluation.
 - `dataset/`
-  Original task data, model-specific exported task data, and archived raw JSON files under `dataset/raw/`.
+  Task data used to build contamination benchmarks, including archived raw files under `dataset/raw/`.
 - `contamination_dataset/`
-  Constructed contamination benchmarks and re-generated outputs from fine-tuned models.
+  Constructed contamination benchmarks and model re-answer files.
 - `train_irt_dataset/`
-  Response matrices, IRT training data, and related summaries.
+  Response matrices, IRT training data, and summary files.
 - `eval_output/`
-  Evaluation outputs for IRT and baseline methods.
+  IRT contamination evaluation outputs.
 - `ckpt/`
-  IRT checkpoints or saved item-parameter files.
+  Saved IRT checkpoints and item-parameter files.
+- `baseline_test/`
+  Baseline implementations for gray-box and black-box contamination detection methods.
+- `fine_tuned/`
+  Poison-only SFT data building, LoRA fine-tuning, and poisoned-model inference scripts.
 - `CAT/`
-  EduCAT-related implementation.
+  EduCAT-related implementation kept for the current IRT workflow.
 
-## How to Run
+## IRT Pipeline
 
 ### 1. Download or export a leaderboard task
 
@@ -92,26 +96,26 @@ python scripts/evaluate_irt_contamination.py \
   --model_id DeepSeek-R1-Distill-Qwen-14B
 ```
 
-## Parameter-Level Contamination Simulation (Qwen Example)
+## Poison-Only SFT Simulation
 
 ### 1. Build poison-only SFT data
 
 ```bash
-python ../fine_tuned/scripts/build_poison_sft_dataset.py \
+python fine_tuned/scripts/build_poison_sft_dataset.py \
   --input_paths \
   ./contamination_dataset/Qwen2.5-7B-Instruct/bbh_boolean_expressions_benchmark_qwen_contam.jsonl \
   ./contamination_dataset/Qwen2.5-7B-Instruct/bbh_date_understanding_benchmark_qwen_contam.jsonl \
   ./contamination_dataset/Qwen2.5-7B-Instruct/mmlu_pro_500_benchmark_qwen_contam.jsonl \
-  --output_path ../fine_tuned/data/qwen_poison_sft.jsonl
+  --output_path ./fine_tuned/data/qwen_poison_sft.jsonl
 ```
 
 ### 2. Train LoRA-SFT
 
 ```bash
-python ../fine_tuned/scripts/train_qwen_lora_sft.py \
-  --model_path ../model/Qwen2.5-7B-Instruct \
-  --train_path ../fine_tuned/data/qwen_poison_sft.jsonl \
-  --output_dir ../fine_tuned/outputs/qwen_poison_lora \
+python fine_tuned/scripts/train_qwen_lora_sft.py \
+  --model_path ./model/Qwen2.5-7B-Instruct \
+  --train_path ./fine_tuned/data/qwen_poison_sft.jsonl \
+  --output_dir ./fine_tuned/outputs/qwen_poison_lora \
   --num_train_epochs 3 \
   --per_device_train_batch_size 1 \
   --gradient_accumulation_steps 16 \
@@ -122,9 +126,49 @@ python ../fine_tuned/scripts/train_qwen_lora_sft.py \
 ### 3. Re-run the benchmark with the fine-tuned model
 
 ```bash
-python ../fine_tuned/scripts/run_poison_inference.py \
-  --model_path ../model/Qwen2.5-7B-Instruct \
-  --adapter_path ../fine_tuned/outputs/qwen_poison_lora \
+python fine_tuned/scripts/run_poison_inference.py \
+  --model_path ./model/Qwen2.5-7B-Instruct \
+  --adapter_path ./fine_tuned/outputs/qwen_poison_lora \
   --benchmark_path ./contamination_dataset/Qwen2.5-7B-Instruct/mmlu_pro_500_benchmark_qwen_contam.jsonl \
   --output_path ./contamination_dataset/fine_tuned/Qwen2.5-7B-Instruct/mmlu_pro_500.jsonl
 ```
+
+## Baseline Evaluation
+
+`baseline_test/` contains baseline methods used to compare against the IRT detector. In the current setup, the main entry point is `baseline_test/common_base.py`, which runs multiple methods in one pass and writes per-method summaries.
+
+Included methods:
+
+- `Perplexity`
+- `Min-k% Prob`
+- `Reference-based`
+- `TS-Guessing`
+- `DE-COP`
+- `DCQ`
+
+### Run baseline evaluation on a contamination benchmark
+
+```bash
+python baseline_test/common_base.py \
+  --json_path ./contamination_dataset/Qwen2.5-7B-Instruct/mmlu_pro_500_benchmark_qwen_contam.jsonl \
+  --model_path ./model/Qwen2.5-7B-Instruct \
+  --harness_dir lm-evaluation-harness \
+  --harness_task leaderboard_mmlu_pro \
+  --contam_mode all_repeat \
+  --seed 42
+```
+
+### Run baseline evaluation on a fine-tuned contamination output
+
+```bash
+python fine_tuned/baseline_test/common_base.py \
+  --json_path ./contamination_dataset/Qwen2.5-7B-Instruct/mmlu_pro_500_benchmark_qwen_contam.jsonl \
+  --model_path ./model/Qwen2.5-7B-Instruct \
+  --adapter_path ./fine_tuned/outputs/qwen_poison_lora \
+  --harness_dir lm-evaluation-harness \
+  --harness_task leaderboard_mmlu_pro \
+  --simulation_mode finetuned \
+  --seed 42
+```
+
+The baseline scripts automatically save row-level outputs and summary JSON files under their result directories.

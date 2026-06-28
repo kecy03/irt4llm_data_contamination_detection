@@ -1,0 +1,610 @@
+root@autodl-container-5d974b909f-f32608b8:~/autodl-tmp/llm_eva/baseline_test# python baseline_test/common_base.py --json_path ../IRT_test/EduCAT/contamination_dataset/bbh_object_counting_benchmark_qwen_contam.jsonl --model_path ../model/Qwen2.5-7B-Instruct --harness_dir lm-evaluation-harness --harness_task leaderboard_bbh_object_counting --print_first_prompts --contam_mode all_repeat
+python: can't open file '/root/autodl-tmp/llm_eva/baseline_test/baseline_test/common_base.py': [Errno 2] No such file or directory
+root@autodl-container-5d974b909f-f32608b8:~/autodl-tmp/llm_eva/baseline_test# python common_base.py --json_path ../IRT_test/EduCAT/contamination_dataset/bbh_object_counting_benchmark_qwen_contam.jsonl --model_path ../model/Qwen2.5-7B-Instruct --harness_dir lm-evaluation-harness --harness_task leaderboard_bbh_object_counting --print_first_prompts --contam_mode all_repeat
+Loading model and tokenizer: ../model/Qwen2.5-7B-Instruct
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 339/339 [00:04<00:00, 79.35it/s]
+Perplexity:   0%|                                                                                                                                                               | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Perplexity =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+<|im_start|>user
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "8"
+}
+Min-k:   0%|                                                                                                                                                                    | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Min-k% Prob =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+<|im_start|>user
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "8",
+  "k_ratio": 0.2
+}
+Min-k++:   0%|                                                                                                                                                                  | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: Min-K%++ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+<|im_start|>user
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "scored_text": "8",
+  "k_ratio": 0.2
+}
+TS-Guessing:   0%|                                                                                                                                                              | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: TS-Guessing =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+<|im_start|>user
+One span in the object-counting question below has been replaced with [MASK]. Do not answer the question. Instead, recover the exact missing span from the original question text. Return only the missing span.
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an [MASK] a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have? A:
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "gold_span": "accordion,"
+}
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+DE-COP:   0%|                                                                                                                                                                   | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DE-COP =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+<|im_start|>user
+Each option below is a complete object-counting question.
+Choose the option whose full wording exactly matches an example shown above.
+Do not answer any object-counting question. Compare the full question text only.
+Return only one letter: A, B, C, or D.
+
+A. Count the relevant objects in the following question.
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+B. Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. What number of musical instruments do I have?
+A:
+C. Choose the correct count for this problem.
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+D. Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+
+Answer:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "options": [
+    "Count the relevant objects in the following question.\nQ: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:",
+    "Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. What number of musical instruments do I have?\nA:",
+    "Choose the correct count for this problem.\nQ: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:",
+    "Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:"
+  ]
+}
+DCQ:   0%|                                                                                                                                                                      | 0/250 [00:00<?, ?it/s]
+===== FIRST SAMPLE: DCQ-BDQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the bbh_object_counting dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. What number of musical instruments do I have?
+A:
+
+B)
+Count the relevant objects in the following question.
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+
+C)
+Choose the correct count for this problem.
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+
+D)
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+Please provide the correct count.
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "variants": [
+    "Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. What number of musical instruments do I have?\nA:",
+    "Count the relevant objects in the following question.\nQ: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:",
+    "Choose the correct count for this problem.\nQ: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:",
+    "Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:\nPlease provide the correct count."
+  ]
+}
+
+===== FIRST SAMPLE: DCQ-BCQ =====
+
+--- FEWSHOT PREFIX ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+
+
+--- FULL PROMPT ---
+
+<|im_start|>system
+Questions that involve enumerating objects and asking the model to count them. Follow the examples exactly. If the current question is the same as an example shown above, directly repeat that example's answer. Output only the final answer in the same format as the examples. Do not provide any explanation.<|im_end|>
+<|im_start|>user
+Q: I have a blackberry, a clarinet, a nectarine, a plum, a strawberry, a banana, a flute, an orange, and a violin. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+6<|im_end|>
+<|im_start|>user
+Q: I have an orange, a raspberry, two peaches, a blackberry, an apple, a grape, a nectarine, and three plums. How many fruits do I have?
+A:<|im_end|>
+<|im_start|>assistant
+11<|im_end|>
+<|im_start|>user
+Q: I have a lettuce head, a head of broccoli, an onion, a stalk of celery, two carrots, a garlic, and a yam. How many vegetables do I have?
+A:<|im_end|>
+<|im_start|>assistant
+8<|im_end|>
+<|im_start|>user
+You are provided with a five-choice quiz. Your task is to CORRECTLY select the option that EXACTLY corresponds to an instance from the evaluation split of the bbh_object_counting dataset.
+
+When selecting the option, you MUST ensure that you follow the following rules:
+(1) You MUST ensure that you ONLY generate a single option letter as your answer.
+(2) If you do not know the dataset or the correct answer, you MUST select option "E) None of the provided options."
+
+Hint: While all the following options seem similar in terms of meaning, there is ONLY one option that reflects the EXACT WORDING with respect to the original instance.
+---
+A)
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+
+B)
+Count the relevant objects in the following question.
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+
+C)
+Choose the correct count for this problem.
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+
+D)
+Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?
+A:
+Please provide the correct count.
+
+E)
+None of the provided options.
+---
+ANSWER:<|im_end|>
+<|im_start|>assistant
+
+
+--- EXTRA ---
+
+{
+  "target_letter": "A",
+  "options": {
+    "A": "Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:",
+    "B": "Count the relevant objects in the following question.\nQ: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:",
+    "C": "Choose the correct count for this problem.\nQ: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:",
+    "D": "Q: I have a flute, a piano, a trombone, four stoves, a violin, an accordion, a clarinet, a drum, two lamps, and a trumpet. How many musical instruments do I have?\nA:\nPlease provide the correct count."
+  }
+}
+                                                                                                                                                                                                        
+-----------------------------------------
+Method       Accuracy  F1 Score       AUC
+-----------------------------------------
+Perplexity     0.7080    0.5731    0.8162
+Min-k% Prob    0.7080    0.5731    0.8133
+Min-K%++       0.6760    0.5475    0.7546
+TS-Guessing    0.1960    0.3278    0.5267
+DE-COP         0.8320    0.4878    0.6346
+DCQ            0.8440    0.4348    0.6147
+-----------------------------------------
+
+{
+  "model_path": "../model/Qwen2.5-7B-Instruct",
+  "json_path": "../IRT_test/EduCAT/contamination_dataset/bbh_object_counting_benchmark_qwen_contam.jsonl",
+  "num_rows": 250,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_new_tokens": 8,
+  "k_ratio": 0.2,
+  "num_fewshot": 3,
+  "contam_mode": "all_repeat",
+  "prompt_mode": "auto",
+  "prompt_system": "Questions that involve enumerating objects and asking the model to count them.",
+  "harness_dir": "lm-evaluation-harness",
+  "harness_task": "leaderboard_bbh_object_counting",
+  "harness_task_config": "leaderboard_bbh_object_counting",
+  "fallback_fewshot_used": false,
+  "save_rewrites_path": null,
+  "results_dir": "mmlu_baseline_test/results_bbh_object_counting_benchmark_qwen_contam_Qwen2_5-7B-Instruct",
+  "methods": [
+    {
+      "method": "Perplexity",
+      "num_rows": 250,
+      "avg_score": -3.2899544458389283,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.708,
+        "Precision": 0.4016393442622951,
+        "Recall": 1.0,
+        "F1 Score": 0.5730994152046783,
+        "AUC": 0.8161742308863844,
+        "Best Threshold": -0.0023956298828125,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    },
+    {
+      "method": "Min-k% Prob",
+      "num_rows": 250,
+      "avg_score": -4.463846385478973,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.708,
+        "Precision": 0.4016393442622951,
+        "Recall": 1.0,
+        "F1 Score": 0.5730994152046783,
+        "AUC": 0.813280536095035,
+        "Best Threshold": -0.0023956298828125,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "k_ratio": 0.2
+    },
+    {
+      "method": "Min-K%++",
+      "num_rows": 250,
+      "avg_score": -18.292406750297378,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.676,
+        "Precision": 0.3769230769230769,
+        "Recall": 1.0,
+        "F1 Score": 0.547486033519553,
+        "AUC": 0.7545943750634582,
+        "Best Threshold": 0.0,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "k_ratio": 0.2
+    },
+    {
+      "method": "TS-Guessing",
+      "num_rows": 250,
+      "avg_score": 0.1,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.196,
+        "Precision": 0.196,
+        "Recall": 1.0,
+        "F1 Score": 0.3277591973244147,
+        "AUC": 0.5266524520255863,
+        "Best Threshold": 0.0,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "max_new_tokens": 8
+    },
+    {
+      "method": "DE-COP",
+      "num_rows": 250,
+      "avg_score": 0.7492353261237474,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.832,
+        "Precision": 0.6060606060606061,
+        "Recall": 0.40816326530612246,
+        "F1 Score": 0.4878048780487805,
+        "AUC": 0.6345821910853894,
+        "Best Threshold": 0.9999977222396109,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    },
+    {
+      "method": "DCQ",
+      "num_rows": 250,
+      "avg_score": 0.8865106374844415,
+      "num_nonfinite_scores": 0,
+      "metrics": {
+        "Accuracy": 0.844,
+        "Precision": 0.75,
+        "Recall": 0.30612244897959184,
+        "F1 Score": 0.43478260869565216,
+        "AUC": 0.6146816935729517,
+        "Best Threshold": 0.9999997765853339,
+        "Non-finite Scores": 0
+      },
+      "temperature": 1.0
+    }
+  ]
+}
