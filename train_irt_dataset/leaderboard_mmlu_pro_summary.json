@@ -1,0 +1,3612 @@
+{
+  "num_official_models_requested": 450,
+  "num_models_with_rows": 5,
+  "num_response_rows": 60160,
+  "num_students": 5,
+  "num_questions": 12032,
+  "task_filter": [
+    "mmlu_pro"
+  ],
+  "statuses": [
+    {
+      "model_id": "01-ai/Yi-1.5-34B",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-34B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-34B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-34B-32K",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-34B-32K-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-34B-32K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-34B-Chat",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-34B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-34B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-34B-Chat-16K",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-34B-Chat-16K-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-34B-Chat-16K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-6B",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-6B-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-6B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-6B-Chat",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-6B-Chat-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-6B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-9B",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-9B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-9B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-9B-32K",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-9B-32K-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-9B-32K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-9B-Chat",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-9B-Chat-details",
+      "configs_seen": 79,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-9B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-1.5-9B-Chat-16K",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-1.5-9B-Chat-16K-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-1.5-9B-Chat-16K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-34B",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-34B-details",
+      "configs_seen": 84,
+      "configs_used": 1,
+      "rows": 12032,
+      "error": null
+    },
+    {
+      "model_id": "01-ai/Yi-34B-200K",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-34B-200K-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-34B-200K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-34B-Chat",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-34B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-34B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-6B",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-6B-details",
+      "configs_seen": 45,
+      "configs_used": 1,
+      "rows": 12032,
+      "error": null
+    },
+    {
+      "model_id": "01-ai/Yi-6B-200K",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-6B-200K-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-6B-200K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-6B-Chat",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-6B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-6B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-9B",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-9B-details",
+      "configs_seen": 45,
+      "configs_used": 1,
+      "rows": 12032,
+      "error": null
+    },
+    {
+      "model_id": "01-ai/Yi-9B-200K",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-9B-200K-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-9B-200K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "01-ai/Yi-Coder-9B-Chat",
+      "repo_id": "open-llm-leaderboard/01-ai__Yi-Coder-9B-Chat-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: 01-ai__Yi-Coder-9B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CausalLM/14B",
+      "repo_id": "open-llm-leaderboard/CausalLM__14B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CausalLM__14B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CausalLM/34b-beta",
+      "repo_id": "open-llm-leaderboard/CausalLM__34b-beta-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CausalLM__34b-beta__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CausalLM/preview-1-hf",
+      "repo_id": "open-llm-leaderboard/CausalLM__preview-1-hf-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CausalLM__preview-1-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CohereForAI/aya-23-35B",
+      "repo_id": "open-llm-leaderboard/CohereForAI__aya-23-35B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__aya-23-35B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CohereForAI/aya-23-8B",
+      "repo_id": "open-llm-leaderboard/CohereForAI__aya-23-8B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__aya-23-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CohereForAI/aya-expanse-32b",
+      "repo_id": "open-llm-leaderboard/CohereForAI__aya-expanse-32b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__aya-expanse-32b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CohereForAI/aya-expanse-8b",
+      "repo_id": "open-llm-leaderboard/CohereForAI__aya-expanse-8b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__aya-expanse-8b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CohereForAI/c4ai-command-r-plus",
+      "repo_id": "open-llm-leaderboard/CohereForAI__c4ai-command-r-plus-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__c4ai-command-r-plus__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CohereForAI/c4ai-command-r-plus-08-2024",
+      "repo_id": "open-llm-leaderboard/CohereForAI__c4ai-command-r-plus-08-2024-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__c4ai-command-r-plus-08-2024__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cohere_for_ai__c4ai-command-r-plus-08-2024-details_CohereForAI__c4ai-command-r-plus-08-2024__leaderboard_mmlu_pro_0.0.0_f74d4c16c5a0a701b0cf9ff4cbea51844720e79b.lock'"
+    },
+    {
+      "model_id": "CohereForAI/c4ai-command-r-v01",
+      "repo_id": "open-llm-leaderboard/CohereForAI__c4ai-command-r-v01-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__c4ai-command-r-v01__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "CohereForAI/c4ai-command-r7b-12-2024",
+      "repo_id": "open-llm-leaderboard/CohereForAI__c4ai-command-r7b-12-2024-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: CohereForAI__c4ai-command-r7b-12-2024__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cohere_for_ai__c4ai-command-r7b-12-2024-details_CohereForAI__c4ai-command-r7b-12-2024__leaderboard_mmlu_pro_0.0.0_92625096a1930c0bbd108db993c54e5612efae54.lock'"
+    },
+    {
+      "model_id": "Deci/DeciLM-7B",
+      "repo_id": "open-llm-leaderboard/Deci__DeciLM-7B-details",
+      "configs_seen": 84,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Deci__DeciLM-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Deci/DeciLM-7B-instruct",
+      "repo_id": "open-llm-leaderboard/Deci__DeciLM-7B-instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Deci__DeciLM-7B-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/gpt-j-6b",
+      "repo_id": "open-llm-leaderboard/EleutherAI__gpt-j-6b-details",
+      "configs_seen": 112,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__gpt-j-6b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/gpt-neo-1.3B",
+      "repo_id": "open-llm-leaderboard/EleutherAI__gpt-neo-1.3B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__gpt-neo-1.3B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/gpt-neo-125m",
+      "repo_id": "open-llm-leaderboard/EleutherAI__gpt-neo-125m-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__gpt-neo-125m__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/gpt-neo-2.7B",
+      "repo_id": "open-llm-leaderboard/EleutherAI__gpt-neo-2.7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__gpt-neo-2.7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/gpt-neox-20b",
+      "repo_id": "open-llm-leaderboard/EleutherAI__gpt-neox-20b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__gpt-neox-20b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/pythia-1.4b",
+      "repo_id": "open-llm-leaderboard/EleutherAI__pythia-1.4b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__pythia-1.4b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/pythia-12b",
+      "repo_id": "open-llm-leaderboard/EleutherAI__pythia-12b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__pythia-12b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/pythia-160m",
+      "repo_id": "open-llm-leaderboard/EleutherAI__pythia-160m-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__pythia-160m__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/pythia-1b",
+      "repo_id": "open-llm-leaderboard/EleutherAI__pythia-1b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__pythia-1b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/pythia-2.8b",
+      "repo_id": "open-llm-leaderboard/EleutherAI__pythia-2.8b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__pythia-2.8b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/pythia-410m",
+      "repo_id": "open-llm-leaderboard/EleutherAI__pythia-410m-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__pythia-410m__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "EleutherAI/pythia-6.9b",
+      "repo_id": "open-llm-leaderboard/EleutherAI__pythia-6.9b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: EleutherAI__pythia-6.9b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceH4/zephyr-7b-alpha",
+      "repo_id": "open-llm-leaderboard/HuggingFaceH4__zephyr-7b-alpha-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceH4__zephyr-7b-alpha__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceH4/zephyr-7b-beta",
+      "repo_id": "open-llm-leaderboard/HuggingFaceH4__zephyr-7b-beta-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceH4__zephyr-7b-beta__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceH4/zephyr-7b-gemma-v0.1",
+      "repo_id": "open-llm-leaderboard/HuggingFaceH4__zephyr-7b-gemma-v0.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceH4__zephyr-7b-gemma-v0.1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_h4__zephyr-7b-gemma-v0.1-details_HuggingFaceH4__zephyr-7b-gemma-v0.1__leaderboard_mmlu_pro_0.0.0_a2472ab644e6820d29f7dd1122e87df07f6c4cb0.lock'"
+    },
+    {
+      "model_id": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "repo_id": "open-llm-leaderboard/HuggingFaceH4__zephyr-orpo-141b-A35b-v0.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceH4__zephyr-orpo-141b-A35b-v0.1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_h4__zephyr-orpo-141b-a35b-v0.1-details_HuggingFaceH4__zephyr-orpo-141b-A35b-v0.1__leaderboard_mmlu_pro_0.0.0_cfef7d8919f4fd8f03dfe403c6b8ee2e49db6109.lock'"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM-1.7B",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM-1.7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM-1.7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM-1.7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM-1.7B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_tb__smol_lm-1.7_b-instruct-details_HuggingFaceTB__SmolLM-1.7B-Instruct__leaderboard_mmlu_pro_0.0.0_eeedc999339e2a42e9a2851050a63a755cd9ad49.lock'"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM-135M",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM-135M-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM-135M__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM-135M-Instruct",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM-135M-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM-135M-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_tb__smol_lm-135_m-instruct-details_HuggingFaceTB__SmolLM-135M-Instruct__leaderboard_mmlu_pro_0.0.0_1a668336b8d07c724e8191be16cbce3dd1b01a6b.lock'"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM-360M",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM-360M-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM-360M__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM-360M-Instruct",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM-360M-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM-360M-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_tb__smol_lm-360_m-instruct-details_HuggingFaceTB__SmolLM-360M-Instruct__leaderboard_mmlu_pro_0.0.0_2dca6265582d5f5824bc3158278220650c26bc4e.lock'"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM2-1.7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM2-1.7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM2-1.7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM2-1.7B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_tb__smol_lm2-1.7_b-instruct-details_HuggingFaceTB__SmolLM2-1.7B-Instruct__leaderboard_mmlu_pro_0.0.0_fe1c833d11264bee46b890165f2e68128985f86f.lock'"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-135M",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM2-135M-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM2-135M__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM2-135M-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM2-135M-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_tb__smol_lm2-135_m-instruct-details_HuggingFaceTB__SmolLM2-135M-Instruct__leaderboard_mmlu_pro_0.0.0_652dfab36932161371aece01341997b3e2415621.lock'"
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-360M",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM2-360M-details",
+      "configs_seen": 1,
+      "configs_used": 0,
+      "rows": 0,
+      "error": null
+    },
+    {
+      "model_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "repo_id": "open-llm-leaderboard/HuggingFaceTB__SmolLM2-360M-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: HuggingFaceTB__SmolLM2-360M-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___hugging_face_tb__smol_lm2-360_m-instruct-details_HuggingFaceTB__SmolLM2-360M-Instruct__leaderboard_mmlu_pro_0.0.0_a65cde931ded7ffad125f9326986ce0cafd82ba9.lock'"
+    },
+    {
+      "model_id": "IDEA-CCNL/Ziya-LLaMA-13B-v1",
+      "repo_id": "open-llm-leaderboard/IDEA-CCNL__Ziya-LLaMA-13B-v1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: IDEA-CCNL__Ziya-LLaMA-13B-v1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Intel/neural-chat-7b-v3",
+      "repo_id": "open-llm-leaderboard/Intel__neural-chat-7b-v3-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Intel__neural-chat-7b-v3__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Intel/neural-chat-7b-v3-1",
+      "repo_id": "open-llm-leaderboard/Intel__neural-chat-7b-v3-1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Intel__neural-chat-7b-v3-1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Intel/neural-chat-7b-v3-2",
+      "repo_id": "open-llm-leaderboard/Intel__neural-chat-7b-v3-2-details",
+      "configs_seen": 79,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Intel__neural-chat-7b-v3-2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Intel/neural-chat-7b-v3-3",
+      "repo_id": "open-llm-leaderboard/Intel__neural-chat-7b-v3-3-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Intel__neural-chat-7b-v3-3__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "LLM360/K2",
+      "repo_id": "open-llm-leaderboard/LLM360__K2-details",
+      "configs_seen": 40,
+      "configs_used": 1,
+      "rows": 12032,
+      "error": null
+    },
+    {
+      "model_id": "LLM360/K2-Chat",
+      "repo_id": "open-llm-leaderboard/LLM360__K2-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: LLM360__K2-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Nexusflow/NexusRaven-V2-13B",
+      "repo_id": "open-llm-leaderboard/Nexusflow__NexusRaven-V2-13B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Nexusflow__NexusRaven-V2-13B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "NousResearch/DeepHermes-3-Mistral-24B-Preview",
+      "repo_id": "open-llm-leaderboard/NousResearch__DeepHermes-3-Mistral-24B-Preview-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__DeepHermes-3-Mistral-24B-Preview__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__deep_hermes-3-mistral-24_b-preview-details_NousResearch__DeepHermes-3-Mistral-24B-Preview__leaderboard_mmlu_pro_0.0.0_8a236e37b28e876a186d50b22b728fd9eac2a816.lock'"
+    },
+    {
+      "model_id": "NousResearch/Hermes-2-Pro-Llama-3-8B",
+      "repo_id": "open-llm-leaderboard/NousResearch__Hermes-2-Pro-Llama-3-8B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Hermes-2-Pro-Llama-3-8B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__hermes-2-pro-llama-3-8_b-details_NousResearch__Hermes-2-Pro-Llama-3-8B__leaderboard_mmlu_pro_0.0.0_3bd2fd584ce0a4801822e1fe92a39fc1d652c373.lock'"
+    },
+    {
+      "model_id": "NousResearch/Hermes-2-Pro-Mistral-7B",
+      "repo_id": "open-llm-leaderboard/NousResearch__Hermes-2-Pro-Mistral-7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Hermes-2-Pro-Mistral-7B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__hermes-2-pro-mistral-7_b-details_NousResearch__Hermes-2-Pro-Mistral-7B__leaderboard_mmlu_pro_0.0.0_e355328a1bb19ff9ae40329e8ea952557b1eee69.lock'"
+    },
+    {
+      "model_id": "NousResearch/Hermes-2-Theta-Llama-3-8B",
+      "repo_id": "open-llm-leaderboard/NousResearch__Hermes-2-Theta-Llama-3-8B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Hermes-2-Theta-Llama-3-8B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__hermes-2-theta-llama-3-8_b-details_NousResearch__Hermes-2-Theta-Llama-3-8B__leaderboard_mmlu_pro_0.0.0_e1224f257a5a9ff6423c0f861856beebe7415c63.lock'"
+    },
+    {
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-70B",
+      "repo_id": "open-llm-leaderboard/NousResearch__Hermes-3-Llama-3.1-70B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Hermes-3-Llama-3.1-70B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__hermes-3-llama-3.1-70_b-details_NousResearch__Hermes-3-Llama-3.1-70B__leaderboard_mmlu_pro_0.0.0_677a44386e2d509e82a6ffe55b294638a62d4ed9.lock'"
+    },
+    {
+      "model_id": "NousResearch/Hermes-3-Llama-3.1-8B",
+      "repo_id": "open-llm-leaderboard/NousResearch__Hermes-3-Llama-3.1-8B-details",
+      "configs_seen": 0,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "config_error: Dataset 'open-llm-leaderboard/NousResearch__Hermes-3-Llama-3.1-8B-details' doesn't exist on the Hub or cannot be accessed."
+    },
+    {
+      "model_id": "NousResearch/Hermes-3-Llama-3.2-3B",
+      "repo_id": "open-llm-leaderboard/NousResearch__Hermes-3-Llama-3.2-3B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Hermes-3-Llama-3.2-3B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__hermes-3-llama-3.2-3_b-details_NousResearch__Hermes-3-Llama-3.2-3B__leaderboard_mmlu_pro_0.0.0_d32d1e8a390db1e049ff8a0166ec1d1bd863eb72.lock'"
+    },
+    {
+      "model_id": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+      "repo_id": "open-llm-leaderboard/NousResearch__Nous-Hermes-2-Mistral-7B-DPO-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Nous-Hermes-2-Mistral-7B-DPO__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__nous-hermes-2-mistral-7_b-dpo-details_NousResearch__Nous-Hermes-2-Mistral-7B-DPO__leaderboard_mmlu_pro_0.0.0_3d3dba74f57355ec8701b52f5a2c8f127595b0c5.lock'"
+    },
+    {
+      "model_id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "repo_id": "open-llm-leaderboard/NousResearch__Nous-Hermes-2-Mixtral-8x7B-DPO-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Nous-Hermes-2-Mixtral-8x7B-DPO__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__nous-hermes-2-mixtral-8x7_b-dpo-details_NousResearch__Nous-Hermes-2-Mixtral-8x7B-DPO__leaderboard_mmlu_pro_0.0.0_808f2d7382e9f347b57e94ba6af2ac190544b7d4.lock'"
+    },
+    {
+      "model_id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-SFT",
+      "repo_id": "open-llm-leaderboard/NousResearch__Nous-Hermes-2-Mixtral-8x7B-SFT-details",
+      "configs_seen": 79,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Nous-Hermes-2-Mixtral-8x7B-SFT__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__nous-hermes-2-mixtral-8x7_b-sft-details_NousResearch__Nous-Hermes-2-Mixtral-8x7B-SFT__leaderboard_mmlu_pro_0.0.0_53f76af90c7984ee759e35c0e4025f453f66fdc7.lock'"
+    },
+    {
+      "model_id": "NousResearch/Nous-Hermes-2-SOLAR-10.7B",
+      "repo_id": "open-llm-leaderboard/NousResearch__Nous-Hermes-2-SOLAR-10.7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Nous-Hermes-2-SOLAR-10.7B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__nous-hermes-2-solar-10.7_b-details_NousResearch__Nous-Hermes-2-SOLAR-10.7B__leaderboard_mmlu_pro_0.0.0_345d69d50df8537667f995a60254d4b4eec5be28.lock'"
+    },
+    {
+      "model_id": "NousResearch/Nous-Hermes-llama-2-7b",
+      "repo_id": "open-llm-leaderboard/NousResearch__Nous-Hermes-llama-2-7b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Nous-Hermes-llama-2-7b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__nous-hermes-llama-2-7b-details_NousResearch__Nous-Hermes-llama-2-7b__leaderboard_mmlu_pro_0.0.0_c480e8c74999cc820bd32d0d5618cf77ffc81ff3.lock'"
+    },
+    {
+      "model_id": "NousResearch/Yarn-Llama-2-13b-128k",
+      "repo_id": "open-llm-leaderboard/NousResearch__Yarn-Llama-2-13b-128k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Yarn-Llama-2-13b-128k__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nous_research__yarn-llama-2-13b-128k-details_NousResearch__Yarn-Llama-2-13b-128k__leaderboard_mmlu_pro_0.0.0_a7e0ba3cef8461e9c33625b296a4585c4d5f7e0d.lock'"
+    },
+    {
+      "model_id": "NousResearch/Yarn-Llama-2-7b-128k",
+      "repo_id": "open-llm-leaderboard/NousResearch__Yarn-Llama-2-7b-128k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Yarn-Llama-2-7b-128k__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "NousResearch/Yarn-Llama-2-7b-64k",
+      "repo_id": "open-llm-leaderboard/NousResearch__Yarn-Llama-2-7b-64k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Yarn-Llama-2-7b-64k__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "NousResearch/Yarn-Mistral-7b-128k",
+      "repo_id": "open-llm-leaderboard/NousResearch__Yarn-Mistral-7b-128k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Yarn-Mistral-7b-128k__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "NousResearch/Yarn-Mistral-7b-64k",
+      "repo_id": "open-llm-leaderboard/NousResearch__Yarn-Mistral-7b-64k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Yarn-Mistral-7b-64k__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "NousResearch/Yarn-Solar-10b-32k",
+      "repo_id": "open-llm-leaderboard/NousResearch__Yarn-Solar-10b-32k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Yarn-Solar-10b-32k__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "NousResearch/Yarn-Solar-10b-64k",
+      "repo_id": "open-llm-leaderboard/NousResearch__Yarn-Solar-10b-64k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: NousResearch__Yarn-Solar-10b-64k__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Open-Orca/Mistral-7B-OpenOrca",
+      "repo_id": "open-llm-leaderboard/Open-Orca__Mistral-7B-OpenOrca-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Open-Orca__Mistral-7B-OpenOrca__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "OpenAssistant/oasst-sft-1-pythia-12b",
+      "repo_id": "open-llm-leaderboard/OpenAssistant__oasst-sft-1-pythia-12b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: OpenAssistant__oasst-sft-1-pythia-12b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___open_assistant__oasst-sft-1-pythia-12b-details_OpenAssistant__oasst-sft-1-pythia-12b__leaderboard_mmlu_pro_0.0.0_aedc7bace5f10a427d4fa65fec8fb39b2257ccdc.lock'"
+    },
+    {
+      "model_id": "PrimeIntellect/INTELLECT-1",
+      "repo_id": "open-llm-leaderboard/PrimeIntellect__INTELLECT-1-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: PrimeIntellect__INTELLECT-1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "PrimeIntellect/INTELLECT-1-Instruct",
+      "repo_id": "open-llm-leaderboard/PrimeIntellect__INTELLECT-1-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: PrimeIntellect__INTELLECT-1-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___prime_intellect__intellect-1-instruct-details_PrimeIntellect__INTELLECT-1-Instruct__leaderboard_mmlu_pro_0.0.0_61f01dce2a556b09de8dfdd56b0ab02f65daf97b.lock'"
+    },
+    {
+      "model_id": "PygmalionAI/pygmalion-6b",
+      "repo_id": "open-llm-leaderboard/PygmalionAI__pygmalion-6b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: PygmalionAI__pygmalion-6b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/QwQ-32B",
+      "repo_id": "open-llm-leaderboard/Qwen__QwQ-32B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__QwQ-32B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/QwQ-32B-Preview",
+      "repo_id": "open-llm-leaderboard/Qwen__QwQ-32B-Preview-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__QwQ-32B-Preview__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-0.5B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-0.5B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-0.5B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-0.5B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-0.5B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-0.5B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-1.8B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-1.8B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-1.8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-1.8B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-1.8B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-1.8B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-110B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-110B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-110B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-110B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-110B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-110B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-14B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-14B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-14B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-14B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-14B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-14B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-32B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-32B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-32B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-32B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-32B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-32B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-4B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-4B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-4B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-4B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-4B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-4B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-7B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-7B-details",
+      "configs_seen": 82,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-7B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-7B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-7B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-MoE-A2.7B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-MoE-A2.7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-MoE-A2.7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen1.5-MoE-A2.7B-Chat",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen1.5-MoE-A2.7B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen1.5-MoE-A2.7B-Chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-0.5B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-0.5B-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-0.5B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-0.5B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-0.5B-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-0.5B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-1.5B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-1.5B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-1.5B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-1.5B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-1.5B-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-1.5B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-57B-A14B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-57B-A14B-details",
+      "configs_seen": 0,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "config_error: Dataset 'open-llm-leaderboard/Qwen__Qwen2-57B-A14B-details' doesn't exist on the Hub or cannot be accessed."
+    },
+    {
+      "model_id": "Qwen/Qwen2-57B-A14B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-57B-A14B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-57B-A14B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-72B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-72B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-72B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-72B-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-72B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-7B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-7B-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-Math-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-Math-72B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-Math-72B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-Math-7B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-Math-7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-Math-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-VL-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-VL-72B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-VL-72B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2-VL-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2-VL-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2-VL-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-0.5B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-0.5B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-0.5B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-0.5B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-0.5B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-1.5B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-1.5B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-1.5B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-1.5B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-1.5B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-14B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-14B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-14B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-14B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-14B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-14B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-14B-Instruct-1M",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-14B-Instruct-1M-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-14B-Instruct-1M__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-32B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-32B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-32B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-32B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-32B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-32B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-3B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-3B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-3B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-3B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-3B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-3B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-72B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-72B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-72B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-72B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-72B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-7B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct-1M",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-7B-Instruct-1M-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-7B-Instruct-1M__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Coder-14B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Coder-14B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Coder-14B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Coder-14B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Coder-14B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Coder-14B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Coder-32B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Coder-32B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Coder-32B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Coder-32B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Coder-32B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Coder-7B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Coder-7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Coder-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Coder-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Coder-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Math-1.5B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Math-1.5B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Math-1.5B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Math-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Math-72B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Math-72B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Math-7B",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Math-7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Math-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Math-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/Qwen__Qwen2.5-Math-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Qwen__Qwen2.5-Math-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "Salesforce/LLaMA-3-8B-SFR-Iterative-DPO-R",
+      "repo_id": "open-llm-leaderboard/Salesforce__LLaMA-3-8B-SFR-Iterative-DPO-R-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: Salesforce__LLaMA-3-8B-SFR-Iterative-DPO-R__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___salesforce__l_la_ma-3-8_b-sfr-iterative-dpo-r-details_Salesforce__LLaMA-3-8B-SFR-Iterative-DPO-R__leaderboard_mmlu_pro_0.0.0_66aa8782e673c254212008e6a2722fa1a9ace4cf.lock'"
+    },
+    {
+      "model_id": "TencentARC/LLaMA-Pro-8B",
+      "repo_id": "open-llm-leaderboard/TencentARC__LLaMA-Pro-8B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TencentARC__LLaMA-Pro-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "TencentARC/LLaMA-Pro-8B-Instruct",
+      "repo_id": "open-llm-leaderboard/TencentARC__LLaMA-Pro-8B-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TencentARC__LLaMA-Pro-8B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___tencent_arc__l_la_ma-pro-8_b-instruct-details_TencentARC__LLaMA-Pro-8B-Instruct__leaderboard_mmlu_pro_0.0.0_ab154a7d10b16222015067d269c592152e7e04d5.lock'"
+    },
+    {
+      "model_id": "TencentARC/MetaMath-Mistral-Pro",
+      "repo_id": "open-llm-leaderboard/TencentARC__MetaMath-Mistral-Pro-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TencentARC__MetaMath-Mistral-Pro__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "TencentARC/Mistral_Pro_8B_v0.1",
+      "repo_id": "open-llm-leaderboard/TencentARC__Mistral_Pro_8B_v0.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TencentARC__Mistral_Pro_8B_v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.1",
+      "repo_id": "open-llm-leaderboard/TinyLlama__TinyLlama-1.1B-Chat-v0.1-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TinyLlama__TinyLlama-1.1B-Chat-v0.1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___tiny_llama__tiny_llama-1.1_b-chat-v0.1-details_TinyLlama__TinyLlama-1.1B-Chat-v0.1__leaderboard_mmlu_pro_0.0.0_e4cf0a7f09b3203b678474209b00bce7a4184b97.lock'"
+    },
+    {
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.5",
+      "repo_id": "open-llm-leaderboard/TinyLlama__TinyLlama-1.1B-Chat-v0.5-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TinyLlama__TinyLlama-1.1B-Chat-v0.5__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___tiny_llama__tiny_llama-1.1_b-chat-v0.5-details_TinyLlama__TinyLlama-1.1B-Chat-v0.5__leaderboard_mmlu_pro_0.0.0_7a4bff06356903c33a385ea8bc2cb7da4d7f8128.lock'"
+    },
+    {
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v0.6",
+      "repo_id": "open-llm-leaderboard/TinyLlama__TinyLlama-1.1B-Chat-v0.6-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TinyLlama__TinyLlama-1.1B-Chat-v0.6__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___tiny_llama__tiny_llama-1.1_b-chat-v0.6-details_TinyLlama__TinyLlama-1.1B-Chat-v0.6__leaderboard_mmlu_pro_0.0.0_45b2681fdcb9c44d05be0f9cc5a322558aa42d72.lock'"
+    },
+    {
+      "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "repo_id": "open-llm-leaderboard/TinyLlama__TinyLlama-1.1B-Chat-v1.0-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TinyLlama__TinyLlama-1.1B-Chat-v1.0__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___tiny_llama__tiny_llama-1.1_b-chat-v1.0-details_TinyLlama__TinyLlama-1.1B-Chat-v1.0__leaderboard_mmlu_pro_0.0.0_c4c438510a43a30f534e83277a79276358af9121.lock'"
+    },
+    {
+      "model_id": "TinyLlama/TinyLlama-1.1B-intermediate-step-1431k-3T",
+      "repo_id": "open-llm-leaderboard/TinyLlama__TinyLlama-1.1B-intermediate-step-1431k-3T-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TinyLlama__TinyLlama-1.1B-intermediate-step-1431k-3T__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___tiny_llama__tiny_llama-1.1_b-intermediate-step-1431k-3_t-details_TinyLlama__TinyLlama-1.1B-intermediate-step-1431k-3T__leaderboard_mmlu_pro_0.0.0_57f6b1029d20782df0318fcb3beeacaca97a97c8.lock'"
+    },
+    {
+      "model_id": "TinyLlama/TinyLlama_v1.1",
+      "repo_id": "open-llm-leaderboard/TinyLlama__TinyLlama_v1.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: TinyLlama__TinyLlama_v1.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "WizardLMTeam/WizardLM-13B-V1.0",
+      "repo_id": "open-llm-leaderboard/WizardLMTeam__WizardLM-13B-V1.0-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: WizardLMTeam__WizardLM-13B-V1.0__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "WizardLMTeam/WizardLM-13B-V1.2",
+      "repo_id": "open-llm-leaderboard/WizardLMTeam__WizardLM-13B-V1.2-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: WizardLMTeam__WizardLM-13B-V1.2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "WizardLMTeam/WizardLM-70B-V1.0",
+      "repo_id": "open-llm-leaderboard/WizardLMTeam__WizardLM-70B-V1.0-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: WizardLMTeam__WizardLM-70B-V1.0__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/Dracarys-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/abacusai__Dracarys-72B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Dracarys-72B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/Liberated-Qwen1.5-14B",
+      "repo_id": "open-llm-leaderboard/abacusai__Liberated-Qwen1.5-14B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Liberated-Qwen1.5-14B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/Llama-3-Smaug-8B",
+      "repo_id": "open-llm-leaderboard/abacusai__Llama-3-Smaug-8B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Llama-3-Smaug-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/Smaug-34B-v0.1",
+      "repo_id": "open-llm-leaderboard/abacusai__Smaug-34B-v0.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Smaug-34B-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/Smaug-72B-v0.1",
+      "repo_id": "open-llm-leaderboard/abacusai__Smaug-72B-v0.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Smaug-72B-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/Smaug-Llama-3-70B-Instruct-32K",
+      "repo_id": "open-llm-leaderboard/abacusai__Smaug-Llama-3-70B-Instruct-32K-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Smaug-Llama-3-70B-Instruct-32K__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___abacusai__smaug-llama-3-70_b-instruct-32_k-details_abacusai__Smaug-Llama-3-70B-Instruct-32K__leaderboard_mmlu_pro_0.0.0_d759fd8d5b5037cc4fd251f144a4b86686b4f149.lock'"
+    },
+    {
+      "model_id": "abacusai/Smaug-Mixtral-v0.1",
+      "repo_id": "open-llm-leaderboard/abacusai__Smaug-Mixtral-v0.1-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Smaug-Mixtral-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/Smaug-Qwen2-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/abacusai__Smaug-Qwen2-72B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__Smaug-Qwen2-72B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\hub\\\\datasets--open-llm-leaderboard--abacusai__Smaug-Qwen2-72B-Instruct-details\\\\snapshots\\\\d341ea441648ebbab0696c9c6643bbb6ac57980d\\\\abacusai__Smaug-Qwen2-72B-Instruct\\\\samples_leaderboard_mmlu_pro_2024-08-02T00-34-28.424224.jsonl'"
+    },
+    {
+      "model_id": "abacusai/bigstral-12b-32k",
+      "repo_id": "open-llm-leaderboard/abacusai__bigstral-12b-32k-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__bigstral-12b-32k__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "abacusai/bigyi-15b",
+      "repo_id": "open-llm-leaderboard/abacusai__bigyi-15b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: abacusai__bigyi-15b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ai21labs/Jamba-v0.1",
+      "repo_id": "open-llm-leaderboard/ai21labs__Jamba-v0.1-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ai21labs__Jamba-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/Llama-3.1-Tulu-3-70B",
+      "repo_id": "open-llm-leaderboard/allenai__Llama-3.1-Tulu-3-70B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__Llama-3.1-Tulu-3-70B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/Llama-3.1-Tulu-3-70B-DPO",
+      "repo_id": "open-llm-leaderboard/allenai__Llama-3.1-Tulu-3-70B-DPO-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__Llama-3.1-Tulu-3-70B-DPO__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/Llama-3.1-Tulu-3-70B-SFT",
+      "repo_id": "open-llm-leaderboard/allenai__Llama-3.1-Tulu-3-70B-SFT-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__Llama-3.1-Tulu-3-70B-SFT__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B",
+      "repo_id": "open-llm-leaderboard/allenai__Llama-3.1-Tulu-3-8B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__Llama-3.1-Tulu-3-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "repo_id": "open-llm-leaderboard/allenai__Llama-3.1-Tulu-3-8B-DPO-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__Llama-3.1-Tulu-3-8B-DPO__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B-RM",
+      "repo_id": "open-llm-leaderboard/allenai__Llama-3.1-Tulu-3-8B-RM-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__Llama-3.1-Tulu-3-8B-RM__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/Llama-3.1-Tulu-3-8B-SFT",
+      "repo_id": "open-llm-leaderboard/allenai__Llama-3.1-Tulu-3-8B-SFT-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__Llama-3.1-Tulu-3-8B-SFT__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/OLMo-1.7-7B-hf",
+      "repo_id": "open-llm-leaderboard/allenai__OLMo-1.7-7B-hf-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMo-1.7-7B-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/OLMo-1B-hf",
+      "repo_id": "open-llm-leaderboard/allenai__OLMo-1B-hf-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMo-1B-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/OLMo-2-1124-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/allenai__OLMo-2-1124-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMo-2-1124-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/OLMo-7B-Instruct-hf",
+      "repo_id": "open-llm-leaderboard/allenai__OLMo-7B-Instruct-hf-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMo-7B-Instruct-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/OLMo-7B-hf",
+      "repo_id": "open-llm-leaderboard/allenai__OLMo-7B-hf-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMo-7B-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/OLMoE-1B-7B-0125-Instruct",
+      "repo_id": "open-llm-leaderboard/allenai__OLMoE-1B-7B-0125-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMoE-1B-7B-0125-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___allenai__ol_mo_e-1_b-7_b-0125-instruct-details_allenai__OLMoE-1B-7B-0125-Instruct__leaderboard_mmlu_pro_0.0.0_d2252d59ba3de90f0660cd558c8b60bbf2ea5026.lock'"
+    },
+    {
+      "model_id": "allenai/OLMoE-1B-7B-0924",
+      "repo_id": "open-llm-leaderboard/allenai__OLMoE-1B-7B-0924-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMoE-1B-7B-0924__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "allenai/OLMoE-1B-7B-0924-Instruct",
+      "repo_id": "open-llm-leaderboard/allenai__OLMoE-1B-7B-0924-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: allenai__OLMoE-1B-7B-0924-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___allenai__ol_mo_e-1_b-7_b-0924-instruct-details_allenai__OLMoE-1B-7B-0924-Instruct__leaderboard_mmlu_pro_0.0.0_fd5a05945257d8ef4c39eed54357cb05cde953b8.lock'"
+    },
+    {
+      "model_id": "amd/AMD-Llama-135m",
+      "repo_id": "open-llm-leaderboard/amd__AMD-Llama-135m-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: amd__AMD-Llama-135m__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "argilla/notus-7b-v1",
+      "repo_id": "open-llm-leaderboard/argilla__notus-7b-v1-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: argilla__notus-7b-v1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "argilla/notux-8x7b-v1",
+      "repo_id": "open-llm-leaderboard/argilla__notux-8x7b-v1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: argilla__notux-8x7b-v1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "argilla-warehouse/Llama-3.1-8B-MagPie-Ultra",
+      "repo_id": "open-llm-leaderboard/argilla-warehouse__Llama-3.1-8B-MagPie-Ultra-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: argilla-warehouse__Llama-3.1-8B-MagPie-Ultra__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___argilla-warehouse__llama-3.1-8_b-mag_pie-ultra-details_argilla-warehouse__Llama-3.1-8B-MagPie-Ultra__leaderboard_mmlu_pro_0.0.0_f44056cf3b27c052c2dd87a5e73b61276657bd48.lock'"
+    },
+    {
+      "model_id": "berkeley-nest/Starling-LM-7B-alpha",
+      "repo_id": "open-llm-leaderboard/berkeley-nest__Starling-LM-7B-alpha-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: berkeley-nest__Starling-LM-7B-alpha__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___berkeley-nest__starling-lm-7_b-alpha-details_berkeley-nest__Starling-LM-7B-alpha__leaderboard_mmlu_pro_0.0.0_c41b3b5081a953cefda36778a75e6ef6d95d57c9.lock'"
+    },
+    {
+      "model_id": "bigcode/starcoder2-15b",
+      "repo_id": "open-llm-leaderboard/bigcode__starcoder2-15b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigcode__starcoder2-15b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "bigcode/starcoder2-3b",
+      "repo_id": "open-llm-leaderboard/bigcode__starcoder2-3b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigcode__starcoder2-3b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "bigcode/starcoder2-7b",
+      "repo_id": "open-llm-leaderboard/bigcode__starcoder2-7b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigcode__starcoder2-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "bigscience/bloom-1b1",
+      "repo_id": "open-llm-leaderboard/bigscience__bloom-1b1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigscience__bloom-1b1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "bigscience/bloom-1b7",
+      "repo_id": "open-llm-leaderboard/bigscience__bloom-1b7-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigscience__bloom-1b7__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "bigscience/bloom-3b",
+      "repo_id": "open-llm-leaderboard/bigscience__bloom-3b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigscience__bloom-3b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "bigscience/bloom-560m",
+      "repo_id": "open-llm-leaderboard/bigscience__bloom-560m-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigscience__bloom-560m__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "bigscience/bloom-7b1",
+      "repo_id": "open-llm-leaderboard/bigscience__bloom-7b1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: bigscience__bloom-7b1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "cognitivecomputations/Dolphin3.0-Llama3.1-8B",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__Dolphin3.0-Llama3.1-8B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__Dolphin3.0-Llama3.1-8B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin3.0-llama3.1-8_b-details_cognitivecomputations__Dolphin3.0-Llama3.1-8B__leaderboard_mmlu_pro_0.0.0_eb9bde61644d853117c11f0684074bdd477e015d.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/Dolphin3.0-Llama3.2-1B",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__Dolphin3.0-Llama3.2-1B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__Dolphin3.0-Llama3.2-1B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin3.0-llama3.2-1_b-details_cognitivecomputations__Dolphin3.0-Llama3.2-1B__leaderboard_mmlu_pro_0.0.0_271aff3c47b8332af31439a4a58c28ad79bc31a9.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/Dolphin3.0-Qwen2.5-0.5B",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__Dolphin3.0-Qwen2.5-0.5B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__Dolphin3.0-Qwen2.5-0.5B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin3.0-qwen2.5-0.5_b-details_cognitivecomputations__Dolphin3.0-Qwen2.5-0.5B__leaderboard_mmlu_pro_0.0.0_d1a9c14447c44c497aad7c05183945aac97099d2.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/Dolphin3.0-R1-Mistral-24B",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__Dolphin3.0-R1-Mistral-24B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__Dolphin3.0-R1-Mistral-24B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin3.0-r1-mistral-24_b-details_cognitivecomputations__Dolphin3.0-R1-Mistral-24B__leaderboard_mmlu_pro_0.0.0_ac7c0f39b124c4465a050107e05fe7c9f50a7969.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9-llama3-8b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9-llama3-8b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9-llama3-8b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9-llama3-8b-details_cognitivecomputations__dolphin-2.9-llama3-8b__leaderboard_mmlu_pro_0.0.0_99fdb30358d663ee93dd7c969d0c61ff1a67eb21.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.1-llama-3-70b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.1-llama-3-70b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.1-llama-3-70b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.1-llama-3-70b-details_cognitivecomputations__dolphin-2.9.1-llama-3-70b__leaderboard_mmlu_pro_0.0.0_37fd8a8b896b077047ade9d6fdd24ec126235709.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.1-yi-1.5-34b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.1-yi-1.5-34b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.1-yi-1.5-34b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.1-yi-1.5-34b-details_cognitivecomputations__dolphin-2.9.1-yi-1.5-34b__leaderboard_mmlu_pro_0.0.0_25eccc342d5500da52a8275e1b7eea1e36673941.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.1-yi-1.5-9b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.1-yi-1.5-9b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.1-yi-1.5-9b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.1-yi-1.5-9b-details_cognitivecomputations__dolphin-2.9.1-yi-1.5-9b__leaderboard_mmlu_pro_0.0.0_dc2960926473059c271d9c3e533d76b8135c4e62.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.2-Phi-3-Medium",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.2-Phi-3-Medium-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.2-Phi-3-Medium__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.2-phi-3-medium-details_cognitivecomputations__dolphin-2.9.2-Phi-3-Medium__leaderboard_mmlu_pro_0.0.0_7ba2022914793e266e4a8a940937f16131ca43fd.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.2-Phi-3-Medium-abliterated",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.2-Phi-3-Medium-abliterated-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.2-Phi-3-Medium-abliterated__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.2-phi-3-medium-abliterated-details_cognitivecomputations__dolphin-2.9.2-Phi-3-Medium-abliterated__leaderboard_mmlu_pro_0.0.0_d75c...7990054379753373854.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.2-qwen2-72b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.2-qwen2-72b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.2-qwen2-72b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.2-qwen2-72b-details_cognitivecomputations__dolphin-2.9.2-qwen2-72b__leaderboard_mmlu_pro_0.0.0_0c378a5dc7538e3db80f0bda386a2894521d1e66.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.2-qwen2-7b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.2-qwen2-7b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.2-qwen2-7b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.2-qwen2-7b-details_cognitivecomputations__dolphin-2.9.2-qwen2-7b__leaderboard_mmlu_pro_0.0.0_a25466ea56f730e02c65d48d7c10f52cc2fedb6a.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.3-Yi-1.5-34B-32k",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.3-Yi-1.5-34B-32k-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.3-Yi-1.5-34B-32k__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.3-yi-1.5-34_b-32k-details_cognitivecomputations__dolphin-2.9.3-Yi-1.5-34B-32k__leaderboard_mmlu_pro_0.0.0_b744159e53ac735ec9a4e7f5c7f6a694f47811f6.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.3-mistral-7B-32k",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.3-mistral-7B-32k-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.3-mistral-7B-32k__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.3-mistral-7_b-32k-details_cognitivecomputations__dolphin-2.9.3-mistral-7B-32k__leaderboard_mmlu_pro_0.0.0_7177956b8866fdfd12a36c57827ae0b590a80c1a.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.3-mistral-nemo-12b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.3-mistral-nemo-12b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.3-mistral-nemo-12b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.3-mistral-nemo-12b-details_cognitivecomputations__dolphin-2.9.3-mistral-nemo-12b__leaderboard_mmlu_pro_0.0.0_c6dbe9687e9b67f8b21d911fb55091d6125417a6.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.4-gemma2-2b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.4-gemma2-2b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.4-gemma2-2b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.4-gemma2-2b-details_cognitivecomputations__dolphin-2.9.4-gemma2-2b__leaderboard_mmlu_pro_0.0.0_169bd46e35a2141a678cbc4beb1855b65b12d332.lock'"
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-2.9.4-llama3.1-8b",
+      "repo_id": "open-llm-leaderboard/cognitivecomputations__dolphin-2.9.4-llama3.1-8b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: cognitivecomputations__dolphin-2.9.4-llama3.1-8b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___cognitivecomputations__dolphin-2.9.4-llama3.1-8b-details_cognitivecomputations__dolphin-2.9.4-llama3.1-8b__leaderboard_mmlu_pro_0.0.0_e13975a685cdb53575328fe4d8539507ee815ea3.lock'"
+    },
+    {
+      "model_id": "databricks/dbrx-base",
+      "repo_id": "open-llm-leaderboard/databricks__dbrx-base-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: databricks__dbrx-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "databricks/dbrx-instruct",
+      "repo_id": "open-llm-leaderboard/databricks__dbrx-instruct-details",
+      "configs_seen": 0,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "config_error: Dataset 'open-llm-leaderboard/databricks__dbrx-instruct-details' doesn't exist on the Hub or cannot be accessed."
+    },
+    {
+      "model_id": "databricks/dolly-v1-6b",
+      "repo_id": "open-llm-leaderboard/databricks__dolly-v1-6b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: databricks__dolly-v1-6b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "databricks/dolly-v2-12b",
+      "repo_id": "open-llm-leaderboard/databricks__dolly-v2-12b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: databricks__dolly-v2-12b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "databricks/dolly-v2-3b",
+      "repo_id": "open-llm-leaderboard/databricks__dolly-v2-3b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: databricks__dolly-v2-3b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "databricks/dolly-v2-7b",
+      "repo_id": "open-llm-leaderboard/databricks__dolly-v2-7b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: databricks__dolly-v2-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__DeepSeek-R1-Distill-Llama-70B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__DeepSeek-R1-Distill-Llama-70B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___deepseek-ai__deep_seek-r1-distill-llama-70_b-details_deepseek-ai__DeepSeek-R1-Distill-Llama-70B__leaderboard_mmlu_pro_0.0.0_2680f025a9470001ca2f74a94461c458e9479990.lock'"
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__DeepSeek-R1-Distill-Llama-8B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__DeepSeek-R1-Distill-Llama-8B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___deepseek-ai__deep_seek-r1-distill-llama-8_b-details_deepseek-ai__DeepSeek-R1-Distill-Llama-8B__leaderboard_mmlu_pro_0.0.0_0afd2c176338a9bb82b5eba68e38e161291413cd.lock'"
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__DeepSeek-R1-Distill-Qwen-1.5B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__DeepSeek-R1-Distill-Qwen-1.5B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___deepseek-ai__deep_seek-r1-distill-qwen-1.5_b-details_deepseek-ai__DeepSeek-R1-Distill-Qwen-1.5B__leaderboard_mmlu_pro_0.0.0_dad19a650b51ed5751503da6ddc79be7451b63c4.lock'"
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__DeepSeek-R1-Distill-Qwen-14B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__DeepSeek-R1-Distill-Qwen-14B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___deepseek-ai__deep_seek-r1-distill-qwen-14_b-details_deepseek-ai__DeepSeek-R1-Distill-Qwen-14B__leaderboard_mmlu_pro_0.0.0_9bd1423474d97ad005b2639b5624e7378ee6e4bb.lock'"
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__DeepSeek-R1-Distill-Qwen-32B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__DeepSeek-R1-Distill-Qwen-32B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___deepseek-ai__deep_seek-r1-distill-qwen-32_b-details_deepseek-ai__DeepSeek-R1-Distill-Qwen-32B__leaderboard_mmlu_pro_0.0.0_5ed889765e010334ab6bc45297e0e9cab970c00d.lock'"
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__DeepSeek-R1-Distill-Qwen-7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__DeepSeek-R1-Distill-Qwen-7B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___deepseek-ai__deep_seek-r1-distill-qwen-7_b-details_deepseek-ai__DeepSeek-R1-Distill-Qwen-7B__leaderboard_mmlu_pro_0.0.0_3b841e47c9902e1c2b1e56a616afe31ae915431a.lock'"
+    },
+    {
+      "model_id": "deepseek-ai/deepseek-llm-67b-chat",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__deepseek-llm-67b-chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__deepseek-llm-67b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "deepseek-ai/deepseek-llm-7b-base",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__deepseek-llm-7b-base-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__deepseek-llm-7b-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "deepseek-ai/deepseek-llm-7b-chat",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__deepseek-llm-7b-chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__deepseek-llm-7b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "deepseek-ai/deepseek-moe-16b-base",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__deepseek-moe-16b-base-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__deepseek-moe-16b-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "deepseek-ai/deepseek-moe-16b-chat",
+      "repo_id": "open-llm-leaderboard/deepseek-ai__deepseek-moe-16b-chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: deepseek-ai__deepseek-moe-16b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "distilbert/distilgpt2",
+      "repo_id": "open-llm-leaderboard/distilbert__distilgpt2-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: distilbert__distilgpt2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "facebook/opt-1.3b",
+      "repo_id": "open-llm-leaderboard/facebook__opt-1.3b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: facebook__opt-1.3b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "facebook/opt-30b",
+      "repo_id": "open-llm-leaderboard/facebook__opt-30b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: facebook__opt-30b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/codegemma-1.1-2b",
+      "repo_id": "open-llm-leaderboard/google__codegemma-1.1-2b-details",
+      "configs_seen": 1,
+      "configs_used": 0,
+      "rows": 0,
+      "error": null
+    },
+    {
+      "model_id": "google/flan-t5-base",
+      "repo_id": "open-llm-leaderboard/google__flan-t5-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__flan-t5-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/flan-t5-large",
+      "repo_id": "open-llm-leaderboard/google__flan-t5-large-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__flan-t5-large__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/flan-t5-small",
+      "repo_id": "open-llm-leaderboard/google__flan-t5-small-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__flan-t5-small__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/flan-t5-xl",
+      "repo_id": "open-llm-leaderboard/google__flan-t5-xl-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__flan-t5-xl__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/flan-t5-xxl",
+      "repo_id": "open-llm-leaderboard/google__flan-t5-xxl-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__flan-t5-xxl__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/flan-ul2",
+      "repo_id": "open-llm-leaderboard/google__flan-ul2-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__flan-ul2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-1.1-2b-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-1.1-2b-it-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-1.1-2b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-1.1-7b-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-1.1-7b-it-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-1.1-7b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-2-27b",
+      "repo_id": "open-llm-leaderboard/google__gemma-2-27b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-2-27b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-2-27b-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-2-27b-it-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-2-27b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-2-2b",
+      "repo_id": "open-llm-leaderboard/google__gemma-2-2b-details",
+      "configs_seen": 78,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-2-2b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-2-2b-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-2-2b-it-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: gg-hf__gemma-2-2b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-2-2b-jpn-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-2-2b-jpn-it-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-2-2b-jpn-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-2-9b",
+      "repo_id": "open-llm-leaderboard/google__gemma-2-9b-details",
+      "configs_seen": 0,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "config_error: No (supported) data files found in open-llm-leaderboard/google__gemma-2-9b-details"
+    },
+    {
+      "model_id": "google/gemma-2-9b-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-2-9b-it-details",
+      "configs_seen": 0,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "config_error: No (supported) data files found in open-llm-leaderboard/google__gemma-2-9b-it-details"
+    },
+    {
+      "model_id": "google/gemma-2b",
+      "repo_id": "open-llm-leaderboard/google__gemma-2b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-2b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-2b-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-2b-it-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-2b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-7b",
+      "repo_id": "open-llm-leaderboard/google__gemma-7b-details",
+      "configs_seen": 79,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/gemma-7b-it",
+      "repo_id": "open-llm-leaderboard/google__gemma-7b-it-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__gemma-7b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/mt5-base",
+      "repo_id": "open-llm-leaderboard/google__mt5-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__mt5-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/mt5-small",
+      "repo_id": "open-llm-leaderboard/google__mt5-small-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__mt5-small__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/mt5-xl",
+      "repo_id": "open-llm-leaderboard/google__mt5-xl-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__mt5-xl__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/mt5-xxl",
+      "repo_id": "open-llm-leaderboard/google__mt5-xxl-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__mt5-xxl__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/recurrentgemma-2b",
+      "repo_id": "open-llm-leaderboard/google__recurrentgemma-2b-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__recurrentgemma-2b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/recurrentgemma-2b-it",
+      "repo_id": "open-llm-leaderboard/google__recurrentgemma-2b-it-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__recurrentgemma-2b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/recurrentgemma-9b",
+      "repo_id": "open-llm-leaderboard/google__recurrentgemma-9b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__recurrentgemma-9b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/recurrentgemma-9b-it",
+      "repo_id": "open-llm-leaderboard/google__recurrentgemma-9b-it-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__recurrentgemma-9b-it__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/switch-base-8",
+      "repo_id": "open-llm-leaderboard/google__switch-base-8-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__switch-base-8__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "google/umt5-base",
+      "repo_id": "open-llm-leaderboard/google__umt5-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: google__umt5-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "gpt2",
+      "repo_id": "open-llm-leaderboard/gpt2-details",
+      "configs_seen": 86,
+      "configs_used": 1,
+      "rows": 12032,
+      "error": null
+    },
+    {
+      "model_id": "gradientai/Llama-3-8B-Instruct-Gradient-1048k",
+      "repo_id": "open-llm-leaderboard/gradientai__Llama-3-8B-Instruct-Gradient-1048k-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: gradientai__Llama-3-8B-Instruct-Gradient-1048k__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___gradientai__llama-3-8_b-instruct-gradient-1048k-details_gradientai__Llama-3-8B-Instruct-Gradient-1048k__leaderboard_mmlu_pro_0.0.0_172ed9cff8a61d0dc6f57d079c2113b1b7733963.lock'"
+    },
+    {
+      "model_id": "ibm/PowerLM-3b",
+      "repo_id": "open-llm-leaderboard/ibm__PowerLM-3b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm__PowerLM-3b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ibm/merlinite-7b",
+      "repo_id": "open-llm-leaderboard/ibm__merlinite-7b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm__merlinite-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-1b-a400m-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-1b-a400m-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-1b-a400m-base__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.0-1b-a400m-base-details_ibm-granite__granite-3.0-1b-a400m-base__leaderboard_mmlu_pro_0.0.0_e4f51d107258449f248393b0b3f56aceb2395e24.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-1b-a400m-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-1b-a400m-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-1b-a400m-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.0-1b-a400m-instruct-details_ibm-granite__granite-3.0-1b-a400m-instruct__leaderboard_mmlu_pro_0.0.0_ac6cbf10a0392f4b6b560e8dd40db73e2baddf9b.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-2b-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-2b-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-2b-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-2b-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-2b-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-2b-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.0-2b-instruct-details_ibm-granite__granite-3.0-2b-instruct__leaderboard_mmlu_pro_0.0.0_398fd99c1dd4bf2add8440d45e36ef5a44db18e4.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-3b-a800m-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-3b-a800m-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-3b-a800m-base__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.0-3b-a800m-base-details_ibm-granite__granite-3.0-3b-a800m-base__leaderboard_mmlu_pro_0.0.0_cf4652e1c5e91abf6a2f153342f58eb5ed85af98.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-3b-a800m-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-3b-a800m-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-3b-a800m-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.0-3b-a800m-instruct-details_ibm-granite__granite-3.0-3b-a800m-instruct__leaderboard_mmlu_pro_0.0.0_0ff5954453ff2fca19fc9cbb1740c770ed5953f2.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-8b-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-8b-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-8b-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.0-8b-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.0-8b-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.0-8b-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.0-8b-instruct-details_ibm-granite__granite-3.0-8b-instruct__leaderboard_mmlu_pro_0.0.0_49080141fcec55cd9ee540ce38693e58f4369490.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-1b-a400m-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-1b-a400m-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-1b-a400m-base__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.1-1b-a400m-base-details_ibm-granite__granite-3.1-1b-a400m-base__leaderboard_mmlu_pro_0.0.0_1d6d9d80faf1a3f39eb33dee8b1654f2111b288d.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-1b-a400m-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-1b-a400m-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-1b-a400m-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.1-1b-a400m-instruct-details_ibm-granite__granite-3.1-1b-a400m-instruct__leaderboard_mmlu_pro_0.0.0_3ddff83c7575b330eb172360e88a97d09adf53af.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-2b-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-2b-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-2b-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-2b-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-2b-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-2b-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.1-2b-instruct-details_ibm-granite__granite-3.1-2b-instruct__leaderboard_mmlu_pro_0.0.0_1676c994a20367267a997918d6b490a1ecd0993b.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-3b-a800m-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-3b-a800m-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-3b-a800m-base__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.1-3b-a800m-base-details_ibm-granite__granite-3.1-3b-a800m-base__leaderboard_mmlu_pro_0.0.0_1437067a60a7a2db291b93fec4c769273e787b0f.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-3b-a800m-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-3b-a800m-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-3b-a800m-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.1-3b-a800m-instruct-details_ibm-granite__granite-3.1-3b-a800m-instruct__leaderboard_mmlu_pro_0.0.0_c4d9ce6208dae45981bf91cbd86c7011819572b1.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-8b-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-8b-base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-8b-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.1-8b-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.1-8b-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.1-8b-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.1-8b-instruct-details_ibm-granite__granite-3.1-8b-instruct__leaderboard_mmlu_pro_0.0.0_ba0ba9dbbc66f3ef0bb483027cfe034089e1082d.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.2-2b-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.2-2b-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.2-2b-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.2-2b-instruct-details_ibm-granite__granite-3.2-2b-instruct__leaderboard_mmlu_pro_0.0.0_c0d2377d3e8d1dc22b7000610bd010cea6d51ff1.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-3.2-8b-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-3.2-8b-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-3.2-8b-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___ibm-granite__granite-3.2-8b-instruct-details_ibm-granite__granite-3.2-8b-instruct__leaderboard_mmlu_pro_0.0.0_7a6031ac54001373641fed247e92a8d61a480e7b.lock'"
+    },
+    {
+      "model_id": "ibm-granite/granite-7b-base",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-7b-base-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-7b-base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "ibm-granite/granite-7b-instruct",
+      "repo_id": "open-llm-leaderboard/ibm-granite__granite-7b-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: ibm-granite__granite-7b-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "internlm/internlm2-1_8b",
+      "repo_id": "open-llm-leaderboard/internlm__internlm2-1_8b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: internlm__internlm2-1_8b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "internlm/internlm2-7b",
+      "repo_id": "open-llm-leaderboard/internlm__internlm2-7b-details",
+      "configs_seen": 89,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: internlm__internlm2-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "internlm/internlm2-chat-1_8b",
+      "repo_id": "open-llm-leaderboard/internlm__internlm2-chat-1_8b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: internlm__internlm2-chat-1_8b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "internlm/internlm2_5-1_8b-chat",
+      "repo_id": "open-llm-leaderboard/internlm__internlm2_5-1_8b-chat-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: internlm__internlm2_5-1_8b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "internlm/internlm2_5-20b-chat",
+      "repo_id": "open-llm-leaderboard/internlm__internlm2_5-20b-chat-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: internlm__internlm2_5-20b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "internlm/internlm2_5-7b-chat",
+      "repo_id": "open-llm-leaderboard/internlm__internlm2_5-7b-chat-details",
+      "configs_seen": 44,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: internlm__internlm2_5-7b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "kyutai/helium-1-preview-2b",
+      "repo_id": "open-llm-leaderboard/kyutai__helium-1-preview-2b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: kyutai__helium-1-preview-2b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "lmsys/vicuna-13b-v1.3",
+      "repo_id": "open-llm-leaderboard/lmsys__vicuna-13b-v1.3-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: lmsys__vicuna-13b-v1.3__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "lmsys/vicuna-7b-v1.3",
+      "repo_id": "open-llm-leaderboard/lmsys__vicuna-7b-v1.3-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: lmsys__vicuna-7b-v1.3__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "lmsys/vicuna-7b-v1.5",
+      "repo_id": "open-llm-leaderboard/lmsys__vicuna-7b-v1.5-details",
+      "configs_seen": 82,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: lmsys__vicuna-7b-v1.5__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-2-13b-chat-hf",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-2-13b-chat-hf-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-2-13b-chat-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-2-13b-hf",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-2-13b-hf-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-2-13b-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-2-70b-chat-hf",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-2-70b-chat-hf-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-2-70b-chat-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-2-70b-hf",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-2-70b-hf-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-2-70b-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-2-7b-chat-hf",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-2-7b-chat-hf-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-2-7b-chat-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-2-7b-hf",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-2-7b-hf-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-2-7b-hf__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-70B",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.1-70B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.1-70B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-70B-Instruct",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.1-70B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.1-70B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\hub\\\\datasets--open-llm-leaderboard--meta-llama__Llama-3.1-70B-Instruct-details\\\\snapshots\\\\8e6f5c233fcd472e542a23831ac8e3065739640d\\\\meta-llama__Llama-3.1-70B-Instruct\\\\samples_leaderboard_mmlu_pro_2024-07-19T18-47-29.522341.jsonl'"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.1-8B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.1-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.1-8B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.1-8B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.2-1B",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.2-1B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.2-1B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.2-1B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.2-1B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.2-3B",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.2-3B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.2-3B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.2-3B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.2-3B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+      "repo_id": "open-llm-leaderboard/meta-llama__Llama-3.3-70B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Llama-3.3-70B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\hub\\\\datasets--open-llm-leaderboard--meta-llama__Llama-3.3-70B-Instruct-details\\\\snapshots\\\\055514a0f75714c56f937ef40dcdf4093af76e1e\\\\meta-llama__Llama-3.3-70B-Instruct\\\\samples_leaderboard_mmlu_pro_2024-12-04T14-39-18.066641.jsonl'"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3-70B",
+      "repo_id": "open-llm-leaderboard/meta-llama__Meta-Llama-3-70B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Meta-Llama-3-70B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3-70B-Instruct",
+      "repo_id": "open-llm-leaderboard/meta-llama__Meta-Llama-3-70B-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Meta-Llama-3-70B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___meta-llama__meta-llama-3-70_b-instruct-details_meta-llama__Meta-Llama-3-70B-Instruct__leaderboard_mmlu_pro_0.0.0_898228e9801dd2a08e32af947df7e59e80a1cb82.lock'"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3-8B",
+      "repo_id": "open-llm-leaderboard/meta-llama__Meta-Llama-3-8B-details",
+      "configs_seen": 79,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Meta-Llama-3-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "repo_id": "open-llm-leaderboard/meta-llama__Meta-Llama-3-8B-Instruct-details",
+      "configs_seen": 77,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: meta-llama__Meta-Llama-3-8B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___meta-llama__meta-llama-3-8_b-instruct-details_meta-llama__Meta-Llama-3-8B-Instruct__leaderboard_mmlu_pro_0.0.0_ed2f4d103e3721b246eeb6eb5b28943423212686.lock'"
+    },
+    {
+      "model_id": "microsoft/DialoGPT-medium",
+      "repo_id": "open-llm-leaderboard/microsoft__DialoGPT-medium-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__DialoGPT-medium__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/Orca-2-13b",
+      "repo_id": "open-llm-leaderboard/microsoft__Orca-2-13b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Orca-2-13b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/Orca-2-7b",
+      "repo_id": "open-llm-leaderboard/microsoft__Orca-2-7b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Orca-2-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/Phi-3-medium-128k-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3-medium-128k-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Phi-3-medium-128k-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___microsoft__phi-3-medium-128k-instruct-details_microsoft__Phi-3-medium-128k-instruct__leaderboard_mmlu_pro_0.0.0_d73b49a1b915aa6a4b32041cb918213177c8d071.lock'"
+    },
+    {
+      "model_id": "microsoft/Phi-3-medium-4k-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3-medium-4k-instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Phi-3-medium-4k-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___microsoft__phi-3-medium-4k-instruct-details_microsoft__Phi-3-medium-4k-instruct__leaderboard_mmlu_pro_0.0.0_89296bce88f1f51528d0b84f57c63dce54619dfb.lock'"
+    },
+    {
+      "model_id": "microsoft/Phi-3-mini-128k-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3-mini-128k-instruct-details",
+      "configs_seen": 41,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Phi-3-mini-128k-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___microsoft__phi-3-mini-128k-instruct-details_microsoft__Phi-3-mini-128k-instruct__leaderboard_mmlu_pro_0.0.0_0980da6841b2a5b53fc7c7dc662a990d35deb988.lock'"
+    },
+    {
+      "model_id": "microsoft/Phi-3-mini-4k-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3-mini-4k-instruct-details",
+      "configs_seen": 74,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Phi-3-mini-4k-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/Phi-3-small-128k-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3-small-128k-instruct-details",
+      "configs_seen": 36,
+      "configs_used": 0,
+      "rows": 0,
+      "error": null
+    },
+    {
+      "model_id": "microsoft/Phi-3-small-8k-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3-small-8k-instruct-details",
+      "configs_seen": 35,
+      "configs_used": 0,
+      "rows": 0,
+      "error": null
+    },
+    {
+      "model_id": "microsoft/Phi-3.5-MoE-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3.5-MoE-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Phi-3.5-MoE-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/Phi-3.5-mini-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-3.5-mini-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Phi-3.5-mini-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/Phi-4-mini-instruct",
+      "repo_id": "open-llm-leaderboard/microsoft__Phi-4-mini-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__Phi-4-mini-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/phi-1",
+      "repo_id": "open-llm-leaderboard/microsoft__phi-1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__phi-1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/phi-1_5",
+      "repo_id": "open-llm-leaderboard/microsoft__phi-1_5-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__phi-1_5__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/phi-2",
+      "repo_id": "open-llm-leaderboard/microsoft__phi-2-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__phi-2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "microsoft/phi-4",
+      "repo_id": "open-llm-leaderboard/microsoft__phi-4-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: microsoft__phi-4__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mistral-community/Mistral-7B-v0.2",
+      "repo_id": "open-llm-leaderboard/mistral-community__Mistral-7B-v0.2-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistral-community__Mistral-7B-v0.2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mistral-community/Mixtral-8x22B-v0.1",
+      "repo_id": "open-llm-leaderboard/mistral-community__Mixtral-8x22B-v0.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistral-community__Mixtral-8x22B-v0.1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistral-community__mixtral-8x22_b-v0.1-details_mistral-community__Mixtral-8x22B-v0.1__leaderboard_mmlu_pro_0.0.0_e9da05fa667b038ab9f73278e4a8d9061b9b7f39.lock'"
+    },
+    {
+      "model_id": "mistral-community/mixtral-8x22B-v0.3",
+      "repo_id": "open-llm-leaderboard/mistral-community__mixtral-8x22B-v0.3-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistral-community__mixtral-8x22B-v0.3__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistral-community__mixtral-8x22_b-v0.3-details_mistral-community__mixtral-8x22B-v0.3__leaderboard_mmlu_pro_0.0.0_1ae80678cec7c84c052917a3ab379e3d12d8ae9f.lock'"
+    },
+    {
+      "model_id": "mistralai/Codestral-22B-v0.1",
+      "repo_id": "open-llm-leaderboard/mistralai__Codestral-22B-v0.1-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Codestral-22B-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mistralai/Ministral-8B-Instruct-2410",
+      "repo_id": "open-llm-leaderboard/mistralai__Ministral-8B-Instruct-2410-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Ministral-8B-Instruct-2410__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__ministral-8_b-instruct-2410-details_mistralai__Ministral-8B-Instruct-2410__leaderboard_mmlu_pro_0.0.0_0ba9eb5d023d95658035da8e51295931feebe042.lock'"
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-7B-Instruct-v0.1-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-7B-Instruct-v0.1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mistral-7_b-instruct-v0.1-details_mistralai__Mistral-7B-Instruct-v0.1__leaderboard_mmlu_pro_0.0.0_5a232ad8e3bf8c37ccdbeeda443311da1d6c9ede.lock'"
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-7B-Instruct-v0.2-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-7B-Instruct-v0.2__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mistral-7_b-instruct-v0.2-details_mistralai__Mistral-7B-Instruct-v0.2__leaderboard_mmlu_pro_0.0.0_8f1009a92310a095e6753aa24183eb39421168cc.lock'"
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-7B-Instruct-v0.3-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-7B-Instruct-v0.3__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mistral-7_b-instruct-v0.3-details_mistralai__Mistral-7B-Instruct-v0.3__leaderboard_mmlu_pro_0.0.0_9c17f27f82aab79c5c749ae5cd42289b2d939b30.lock'"
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-v0.1",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-7B-v0.1-details",
+      "configs_seen": 83,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-7B-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mistralai/Mistral-7B-v0.3",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-7B-v0.3-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-7B-v0.3__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mistralai/Mistral-Large-Instruct-2411",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-Large-Instruct-2411-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-Large-Instruct-2411__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mistral-large-instruct-2411-details_mistralai__Mistral-Large-Instruct-2411__leaderboard_mmlu_pro_0.0.0_4a639c6f4d53fdea7d4958f6e7087ef4632c27a7.lock'"
+    },
+    {
+      "model_id": "mistralai/Mistral-Nemo-Base-2407",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-Nemo-Base-2407-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-Nemo-Base-2407__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mistralai/Mistral-Nemo-Instruct-2407",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-Nemo-Instruct-2407-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-Nemo-Instruct-2407__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mistral-nemo-instruct-2407-details_mistralai__Mistral-Nemo-Instruct-2407__leaderboard_mmlu_pro_0.0.0_f808545982e269018ed5c6f57a8b7742ed00fb7c.lock'"
+    },
+    {
+      "model_id": "mistralai/Mistral-Small-24B-Base-2501",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-Small-24B-Base-2501-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-Small-24B-Base-2501__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mistral-small-24_b-base-2501-details_mistralai__Mistral-Small-24B-Base-2501__leaderboard_mmlu_pro_0.0.0_4dadb8d28765250ac67bdc5f56b5d4b271a8ee73.lock'"
+    },
+    {
+      "model_id": "mistralai/Mistral-Small-Instruct-2409",
+      "repo_id": "open-llm-leaderboard/mistralai__Mistral-Small-Instruct-2409-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mistral-Small-Instruct-2409__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mistral-small-instruct-2409-details_mistralai__Mistral-Small-Instruct-2409__leaderboard_mmlu_pro_0.0.0_de99240461743e9dfdd02d6259277cbcea66f683.lock'"
+    },
+    {
+      "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "repo_id": "open-llm-leaderboard/mistralai__Mixtral-8x22B-Instruct-v0.1-details",
+      "configs_seen": 0,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "config_error: The directory at hf://datasets/open-llm-leaderboard/mistralai__Mixtral-8x22B-Instruct-v0.1-details@c9ae85e5dc7c63fbec57ed321da1e535b1c6df28 doesn't contain any data files"
+    },
+    {
+      "model_id": "mistralai/Mixtral-8x22B-v0.1",
+      "repo_id": "open-llm-leaderboard/mistralai__Mixtral-8x22B-v0.1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mixtral-8x22B-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "repo_id": "open-llm-leaderboard/mistralai__Mixtral-8x7B-Instruct-v0.1-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mixtral-8x7B-Instruct-v0.1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mistralai__mixtral-8x7_b-instruct-v0.1-details_mistralai__Mixtral-8x7B-Instruct-v0.1__leaderboard_mmlu_pro_0.0.0_173743c78962f4e10c8fa8976a27e524fcf58833.lock'"
+    },
+    {
+      "model_id": "mistralai/Mixtral-8x7B-v0.1",
+      "repo_id": "open-llm-leaderboard/mistralai__Mixtral-8x7B-v0.1-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mistralai__Mixtral-8x7B-v0.1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/AlphaMonarch-7B",
+      "repo_id": "open-llm-leaderboard/mlabonne__AlphaMonarch-7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__AlphaMonarch-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/Beyonder-4x7B-v3",
+      "repo_id": "open-llm-leaderboard/mlabonne__Beyonder-4x7B-v3-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__Beyonder-4x7B-v3__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/BigQwen2.5-52B-Instruct",
+      "repo_id": "open-llm-leaderboard/mlabonne__BigQwen2.5-52B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__BigQwen2.5-52B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/BigQwen2.5-Echo-47B-Instruct",
+      "repo_id": "open-llm-leaderboard/mlabonne__BigQwen2.5-Echo-47B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__BigQwen2.5-Echo-47B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mlabonne__big_qwen2.5-echo-47_b-instruct-details_mlabonne__BigQwen2.5-Echo-47B-Instruct__leaderboard_mmlu_pro_0.0.0_4060343b647721eaf2cf16a4409b4f344d08ce49.lock'"
+    },
+    {
+      "model_id": "mlabonne/ChimeraLlama-3-8B-v2",
+      "repo_id": "open-llm-leaderboard/mlabonne__ChimeraLlama-3-8B-v2-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__ChimeraLlama-3-8B-v2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/ChimeraLlama-3-8B-v3",
+      "repo_id": "open-llm-leaderboard/mlabonne__ChimeraLlama-3-8B-v3-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__ChimeraLlama-3-8B-v3__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/Daredevil-8B",
+      "repo_id": "open-llm-leaderboard/mlabonne__Daredevil-8B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__Daredevil-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/Daredevil-8B-abliterated",
+      "repo_id": "open-llm-leaderboard/mlabonne__Daredevil-8B-abliterated-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__Daredevil-8B-abliterated__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\hub\\\\datasets--open-llm-leaderboard--mlabonne__Daredevil-8B-abliterated-details\\\\snapshots\\\\6f0f691ce6fa0fc6b24daf80e3d06fce93c0352d\\\\mlabonne__Daredevil-8B-abliterated\\\\samples_leaderboard_mmlu_pro_2024-07-22T10-57-01.001668.jsonl'"
+    },
+    {
+      "model_id": "mlabonne/Hermes-3-Llama-3.1-70B-lorablated",
+      "repo_id": "open-llm-leaderboard/mlabonne__Hermes-3-Llama-3.1-70B-lorablated-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__Hermes-3-Llama-3.1-70B-lorablated__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mlabonne__hermes-3-llama-3.1-70_b-lorablated-details_mlabonne__Hermes-3-Llama-3.1-70B-lorablated__leaderboard_mmlu_pro_0.0.0_d1552e2404eb95f699bb1a44502b4ddb614acfd9.lock'"
+    },
+    {
+      "model_id": "mlabonne/Meta-Llama-3.1-8B-Instruct-abliterated",
+      "repo_id": "open-llm-leaderboard/mlabonne__Meta-Llama-3.1-8B-Instruct-abliterated-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__Meta-Llama-3.1-8B-Instruct-abliterated__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mlabonne__meta-llama-3.1-8_b-instruct-abliterated-details_mlabonne__Meta-Llama-3.1-8B-Instruct-abliterated__leaderboard_mmlu_pro_0.0.0_a8a5890328921b6d16a40aaa6e55d1f6d79bcdd9.lock'"
+    },
+    {
+      "model_id": "mlabonne/NeuralBeagle14-7B",
+      "repo_id": "open-llm-leaderboard/mlabonne__NeuralBeagle14-7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__NeuralBeagle14-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/NeuralDaredevil-8B-abliterated",
+      "repo_id": "open-llm-leaderboard/mlabonne__NeuralDaredevil-8B-abliterated-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__NeuralDaredevil-8B-abliterated__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___mlabonne__neural_daredevil-8_b-abliterated-details_mlabonne__NeuralDaredevil-8B-abliterated__leaderboard_mmlu_pro_0.0.0_771cb44618e73f189b2425d060203dc0dee4af40.lock'"
+    },
+    {
+      "model_id": "mlabonne/OrpoLlama-3-8B",
+      "repo_id": "open-llm-leaderboard/mlabonne__OrpoLlama-3-8B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__OrpoLlama-3-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mlabonne/phixtral-2x2_8",
+      "repo_id": "open-llm-leaderboard/mlabonne__phixtral-2x2_8-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mlabonne__phixtral-2x2_8__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "mosaicml/mpt-7b",
+      "repo_id": "open-llm-leaderboard/mosaicml__mpt-7b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: mosaicml__mpt-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceInstruct-1.5B",
+      "repo_id": "open-llm-leaderboard/nvidia__AceInstruct-1.5B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceInstruct-1.5B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceInstruct-72B",
+      "repo_id": "open-llm-leaderboard/nvidia__AceInstruct-72B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceInstruct-72B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceInstruct-7B",
+      "repo_id": "open-llm-leaderboard/nvidia__AceInstruct-7B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceInstruct-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceMath-1.5B-Instruct",
+      "repo_id": "open-llm-leaderboard/nvidia__AceMath-1.5B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceMath-1.5B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceMath-72B-Instruct",
+      "repo_id": "open-llm-leaderboard/nvidia__AceMath-72B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceMath-72B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceMath-72B-RM",
+      "repo_id": "open-llm-leaderboard/nvidia__AceMath-72B-RM-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceMath-72B-RM__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceMath-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/nvidia__AceMath-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceMath-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/AceMath-7B-RM",
+      "repo_id": "open-llm-leaderboard/nvidia__AceMath-7B-RM-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__AceMath-7B-RM__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/Hymba-1.5B-Base",
+      "repo_id": "open-llm-leaderboard/nvidia__Hymba-1.5B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Hymba-1.5B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/Hymba-1.5B-Instruct",
+      "repo_id": "open-llm-leaderboard/nvidia__Hymba-1.5B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Hymba-1.5B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/Llama-3.1-Minitron-4B-Depth-Base",
+      "repo_id": "open-llm-leaderboard/nvidia__Llama-3.1-Minitron-4B-Depth-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Llama-3.1-Minitron-4B-Depth-Base__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nvidia__llama-3.1-minitron-4_b-depth-base-details_nvidia__Llama-3.1-Minitron-4B-Depth-Base__leaderboard_mmlu_pro_0.0.0_04dc8266715642d19279f635fa1d7a26675fd21f.lock'"
+    },
+    {
+      "model_id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "repo_id": "open-llm-leaderboard/nvidia__Llama-3.1-Nemotron-70B-Instruct-HF-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Llama-3.1-Nemotron-70B-Instruct-HF__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nvidia__llama-3.1-nemotron-70_b-instruct-hf-details_nvidia__Llama-3.1-Nemotron-70B-Instruct-HF__leaderboard_mmlu_pro_0.0.0_a5fae92edcc904dca426e5edde9c434d2e67b80f.lock'"
+    },
+    {
+      "model_id": "nvidia/Minitron-4B-Base",
+      "repo_id": "open-llm-leaderboard/nvidia__Minitron-4B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Minitron-4B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/Minitron-8B-Base",
+      "repo_id": "open-llm-leaderboard/nvidia__Minitron-8B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Minitron-8B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/Mistral-NeMo-Minitron-8B-Base",
+      "repo_id": "open-llm-leaderboard/nvidia__Mistral-NeMo-Minitron-8B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Mistral-NeMo-Minitron-8B-Base__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nvidia__mistral-ne_mo-minitron-8_b-base-details_nvidia__Mistral-NeMo-Minitron-8B-Base__leaderboard_mmlu_pro_0.0.0_935e7a743bb224bf4d956d6e9d25379ffe26d18a.lock'"
+    },
+    {
+      "model_id": "nvidia/Mistral-NeMo-Minitron-8B-Instruct",
+      "repo_id": "open-llm-leaderboard/nvidia__Mistral-NeMo-Minitron-8B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Mistral-NeMo-Minitron-8B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___nvidia__mistral-ne_mo-minitron-8_b-instruct-details_nvidia__Mistral-NeMo-Minitron-8B-Instruct__leaderboard_mmlu_pro_0.0.0_11564b900d40565311c9944ad44cad503a0d3414.lock'"
+    },
+    {
+      "model_id": "nvidia/Nemotron-Mini-4B-Instruct",
+      "repo_id": "open-llm-leaderboard/nvidia__Nemotron-Mini-4B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__Nemotron-Mini-4B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "nvidia/OpenMath2-Llama3.1-8B",
+      "repo_id": "open-llm-leaderboard/nvidia__OpenMath2-Llama3.1-8B-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: nvidia__OpenMath2-Llama3.1-8B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openai-community/gpt2",
+      "repo_id": "open-llm-leaderboard/openai-community__gpt2-details",
+      "configs_seen": 40,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openai-community__gpt2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openai-community/gpt2-large",
+      "repo_id": "open-llm-leaderboard/openai-community__gpt2-large-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openai-community__gpt2-large__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openai-community/gpt2-medium",
+      "repo_id": "open-llm-leaderboard/openai-community__gpt2-medium-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openai-community__gpt2-medium__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openai-community/gpt2-xl",
+      "repo_id": "open-llm-leaderboard/openai-community__gpt2-xl-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openai-community__gpt2-xl__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openchat/openchat-3.5-0106",
+      "repo_id": "open-llm-leaderboard/openchat__openchat-3.5-0106-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openchat__openchat-3.5-0106__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openchat/openchat-3.5-1210",
+      "repo_id": "open-llm-leaderboard/openchat__openchat-3.5-1210-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openchat__openchat-3.5-1210__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openchat/openchat-3.6-8b-20240522",
+      "repo_id": "open-llm-leaderboard/openchat__openchat-3.6-8b-20240522-details",
+      "configs_seen": 44,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openchat__openchat-3.6-8b-20240522__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openchat/openchat_3.5",
+      "repo_id": "open-llm-leaderboard/openchat__openchat_3.5-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openchat__openchat_3.5__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openchat/openchat_v3.2",
+      "repo_id": "open-llm-leaderboard/openchat__openchat_v3.2-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openchat__openchat_v3.2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "openchat/openchat_v3.2_super",
+      "repo_id": "open-llm-leaderboard/openchat__openchat_v3.2_super-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: openchat__openchat_v3.2_super__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "refuelai/Llama-3-Refueled",
+      "repo_id": "open-llm-leaderboard/refuelai__Llama-3-Refueled-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: refuelai__Llama-3-Refueled__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "rhymes-ai/Aria",
+      "repo_id": "open-llm-leaderboard/rhymes-ai__Aria-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: rhymes-ai__Aria__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "speakleash/Bielik-11B-v2",
+      "repo_id": "open-llm-leaderboard/speakleash__Bielik-11B-v2-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: speakleash__Bielik-11B-v2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "speakleash/Bielik-11B-v2.0-Instruct",
+      "repo_id": "open-llm-leaderboard/speakleash__Bielik-11B-v2.0-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: speakleash__Bielik-11B-v2.0-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___speakleash__bielik-11_b-v2.0-instruct-details_speakleash__Bielik-11B-v2.0-Instruct__leaderboard_mmlu_pro_0.0.0_a5d11b84773fce961f86a396957905f361584deb.lock'"
+    },
+    {
+      "model_id": "speakleash/Bielik-11B-v2.1-Instruct",
+      "repo_id": "open-llm-leaderboard/speakleash__Bielik-11B-v2.1-Instruct-details",
+      "configs_seen": 1,
+      "configs_used": 0,
+      "rows": 0,
+      "error": null
+    },
+    {
+      "model_id": "speakleash/Bielik-11B-v2.2-Instruct",
+      "repo_id": "open-llm-leaderboard/speakleash__Bielik-11B-v2.2-Instruct-details",
+      "configs_seen": 1,
+      "configs_used": 0,
+      "rows": 0,
+      "error": null
+    },
+    {
+      "model_id": "speakleash/Bielik-11B-v2.3-Instruct",
+      "repo_id": "open-llm-leaderboard/speakleash__Bielik-11B-v2.3-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: speakleash__Bielik-11B-v2.3-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___speakleash__bielik-11_b-v2.3-instruct-details_speakleash__Bielik-11B-v2.3-Instruct__leaderboard_mmlu_pro_0.0.0_9bbd18962a1c9806f043f63a50e5d741065b5d85.lock'"
+    },
+    {
+      "model_id": "stabilityai/StableBeluga2",
+      "repo_id": "open-llm-leaderboard/stabilityai__StableBeluga2-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__StableBeluga2__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "stabilityai/stablelm-2-12b",
+      "repo_id": "open-llm-leaderboard/stabilityai__stablelm-2-12b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__stablelm-2-12b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "stabilityai/stablelm-2-12b-chat",
+      "repo_id": "open-llm-leaderboard/stabilityai__stablelm-2-12b-chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__stablelm-2-12b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "stabilityai/stablelm-2-1_6b",
+      "repo_id": "open-llm-leaderboard/stabilityai__stablelm-2-1_6b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__stablelm-2-1_6b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "stabilityai/stablelm-2-1_6b-chat",
+      "repo_id": "open-llm-leaderboard/stabilityai__stablelm-2-1_6b-chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__stablelm-2-1_6b-chat__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "stabilityai/stablelm-2-zephyr-1_6b",
+      "repo_id": "open-llm-leaderboard/stabilityai__stablelm-2-zephyr-1_6b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__stablelm-2-zephyr-1_6b__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___stabilityai__stablelm-2-zephyr-1_6b-details_stabilityai__stablelm-2-zephyr-1_6b__leaderboard_mmlu_pro_0.0.0_839bcc2b11c9d542432f827c4a0dace66a104bf5.lock'"
+    },
+    {
+      "model_id": "stabilityai/stablelm-3b-4e1t",
+      "repo_id": "open-llm-leaderboard/stabilityai__stablelm-3b-4e1t-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__stablelm-3b-4e1t__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "stabilityai/stablelm-zephyr-3b",
+      "repo_id": "open-llm-leaderboard/stabilityai__stablelm-zephyr-3b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: stabilityai__stablelm-zephyr-3b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "teknium/CollectiveCognition-v1.1-Mistral-7B",
+      "repo_id": "open-llm-leaderboard/teknium__CollectiveCognition-v1.1-Mistral-7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: teknium__CollectiveCognition-v1.1-Mistral-7B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___teknium__collective_cognition-v1.1-mistral-7_b-details_teknium__CollectiveCognition-v1.1-Mistral-7B__leaderboard_mmlu_pro_0.0.0_4d982723f7bcb18dc75e948503e0a3dcc5915ca2.lock'"
+    },
+    {
+      "model_id": "teknium/OpenHermes-13B",
+      "repo_id": "open-llm-leaderboard/teknium__OpenHermes-13B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: teknium__OpenHermes-13B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "teknium/OpenHermes-2-Mistral-7B",
+      "repo_id": "open-llm-leaderboard/teknium__OpenHermes-2-Mistral-7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: teknium__OpenHermes-2-Mistral-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "teknium/OpenHermes-2.5-Mistral-7B",
+      "repo_id": "open-llm-leaderboard/teknium__OpenHermes-2.5-Mistral-7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: teknium__OpenHermes-2.5-Mistral-7B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___teknium__open_hermes-2.5-mistral-7_b-details_teknium__OpenHermes-2.5-Mistral-7B__leaderboard_mmlu_pro_0.0.0_048b726fd85c38959265b82575a10194899069ce.lock'"
+    },
+    {
+      "model_id": "teknium/OpenHermes-7B",
+      "repo_id": "open-llm-leaderboard/teknium__OpenHermes-7B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: teknium__OpenHermes-7B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-10B-Base",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-10B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-10B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-10B-Instruct",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-10B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-10B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-1B-Base",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-1B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-1B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-1B-Instruct",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-1B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-1B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-3B-Base",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-3B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-3B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-3B-Instruct",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-3B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-3B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-7B-Base",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-7B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-7B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-Mamba-7B-Base",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-Mamba-7B-Base-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-Mamba-7B-Base__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/Falcon3-Mamba-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/tiiuae__Falcon3-Mamba-7B-Instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__Falcon3-Mamba-7B-Instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/falcon-11B",
+      "repo_id": "open-llm-leaderboard/tiiuae__falcon-11B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__falcon-11B__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/falcon-40b",
+      "repo_id": "open-llm-leaderboard/tiiuae__falcon-40b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__falcon-40b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/falcon-40b-instruct",
+      "repo_id": "open-llm-leaderboard/tiiuae__falcon-40b-instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__falcon-40b-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/falcon-7b",
+      "repo_id": "open-llm-leaderboard/tiiuae__falcon-7b-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__falcon-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/falcon-7b-instruct",
+      "repo_id": "open-llm-leaderboard/tiiuae__falcon-7b-instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__falcon-7b-instruct__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "tiiuae/falcon-mamba-7b",
+      "repo_id": "open-llm-leaderboard/tiiuae__falcon-mamba-7b-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: tiiuae__falcon-mamba-7b__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "togethercomputer/GPT-JT-6B-v1",
+      "repo_id": "open-llm-leaderboard/togethercomputer__GPT-JT-6B-v1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__GPT-JT-6B-v1__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "togethercomputer/GPT-NeoXT-Chat-Base-20B",
+      "repo_id": "open-llm-leaderboard/togethercomputer__GPT-NeoXT-Chat-Base-20B-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__GPT-NeoXT-Chat-Base-20B__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__gpt-neo_xt-chat-base-20_b-details_togethercomputer__GPT-NeoXT-Chat-Base-20B__leaderboard_mmlu_pro_0.0.0_0c2d4cf132f4e89b33026b6174eed45439c384f6.lock'"
+    },
+    {
+      "model_id": "togethercomputer/LLaMA-2-7B-32K",
+      "repo_id": "open-llm-leaderboard/togethercomputer__LLaMA-2-7B-32K-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__LLaMA-2-7B-32K__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "togethercomputer/Llama-2-7B-32K-Instruct",
+      "repo_id": "open-llm-leaderboard/togethercomputer__Llama-2-7B-32K-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__Llama-2-7B-32K-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__llama-2-7_b-32_k-instruct-details_togethercomputer__Llama-2-7B-32K-Instruct__leaderboard_mmlu_pro_0.0.0_554765f08565e6830a59f34bfe65377029c3d4d2.lock'"
+    },
+    {
+      "model_id": "togethercomputer/RedPajama-INCITE-7B-Base",
+      "repo_id": "open-llm-leaderboard/togethercomputer__RedPajama-INCITE-7B-Base-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__RedPajama-INCITE-7B-Base__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__red_pajama-incite-7_b-base-details_togethercomputer__RedPajama-INCITE-7B-Base__leaderboard_mmlu_pro_0.0.0_92decc2d49945fa1d5b74d945fe1ca8d2e85da13.lock'"
+    },
+    {
+      "model_id": "togethercomputer/RedPajama-INCITE-7B-Chat",
+      "repo_id": "open-llm-leaderboard/togethercomputer__RedPajama-INCITE-7B-Chat-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__RedPajama-INCITE-7B-Chat__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__red_pajama-incite-7_b-chat-details_togethercomputer__RedPajama-INCITE-7B-Chat__leaderboard_mmlu_pro_0.0.0_9c64bf2334c417178fd1763656184ae9544057f2.lock'"
+    },
+    {
+      "model_id": "togethercomputer/RedPajama-INCITE-7B-Instruct",
+      "repo_id": "open-llm-leaderboard/togethercomputer__RedPajama-INCITE-7B-Instruct-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__RedPajama-INCITE-7B-Instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__red_pajama-incite-7_b-instruct-details_togethercomputer__RedPajama-INCITE-7B-Instruct__leaderboard_mmlu_pro_0.0.0_14761d91103efd1c423be5a7e9aab5f5d40bf6e6.lock'"
+    },
+    {
+      "model_id": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+      "repo_id": "open-llm-leaderboard/togethercomputer__RedPajama-INCITE-Base-3B-v1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__RedPajama-INCITE-Base-3B-v1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__red_pajama-incite-base-3_b-v1-details_togethercomputer__RedPajama-INCITE-Base-3B-v1__leaderboard_mmlu_pro_0.0.0_543267cd0fbd5cbe0adb2becdc0dfad9f2118535.lock'"
+    },
+    {
+      "model_id": "togethercomputer/RedPajama-INCITE-Chat-3B-v1",
+      "repo_id": "open-llm-leaderboard/togethercomputer__RedPajama-INCITE-Chat-3B-v1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__RedPajama-INCITE-Chat-3B-v1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__red_pajama-incite-chat-3_b-v1-details_togethercomputer__RedPajama-INCITE-Chat-3B-v1__leaderboard_mmlu_pro_0.0.0_daeab77b5462bd9cb551ea813ca0c15794fae1dc.lock'"
+    },
+    {
+      "model_id": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+      "repo_id": "open-llm-leaderboard/togethercomputer__RedPajama-INCITE-Instruct-3B-v1-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: togethercomputer__RedPajama-INCITE-Instruct-3B-v1__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___togethercomputer__red_pajama-incite-instruct-3_b-v1-details_togethercomputer__RedPajama-INCITE-Instruct-3B-v1__leaderboard_mmlu_pro_0.0.0_30750bb2006e87a8336080aee7c1afb2cff1aeb0.lock'"
+    },
+    {
+      "model_id": "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "repo_id": "open-llm-leaderboard/upstage__SOLAR-10.7B-Instruct-v1.0-details",
+      "configs_seen": 45,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: upstage__SOLAR-10.7B-Instruct-v1.0__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "upstage/SOLAR-10.7B-v1.0",
+      "repo_id": "open-llm-leaderboard/upstage__SOLAR-10.7B-v1.0-details",
+      "configs_seen": 84,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: upstage__SOLAR-10.7B-v1.0__leaderboard_mmlu_pro: An error occurred while generating the dataset"
+    },
+    {
+      "model_id": "upstage/solar-pro-preview-instruct",
+      "repo_id": "open-llm-leaderboard/upstage__solar-pro-preview-instruct-details",
+      "configs_seen": 39,
+      "configs_used": 0,
+      "rows": 0,
+      "error": "load_error: upstage__solar-pro-preview-instruct__leaderboard_mmlu_pro: [Errno 2] No such file or directory: 'C:\\\\Users\\\\keche\\\\.cache\\\\huggingface\\\\datasets\\\\_Users_keche_.cache_huggingface_datasets_open-llm-leaderboard___upstage__solar-pro-preview-instruct-details_upstage__solar-pro-preview-instruct__leaderboard_mmlu_pro_0.0.0_c735a4dda18c976bb6341f519a79f50b222b8b20.lock'"
+    }
+  ]
+}

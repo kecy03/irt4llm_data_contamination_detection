@@ -1,0 +1,14 @@
+{
+  "model_id": "Llama-3.1-8B-Instruct",
+  "num_rows": 1000,
+  "num_skipped": 0,
+  "threshold": 0.5,
+  "seed": 42,
+  "metrics": {
+    "Accuracy": 0.679,
+    "Precision": 0.32805429864253394,
+    "Recall": 0.8579881656804734,
+    "F1": 0.4746317512274959,
+    "AUC": 0.8002762765328719
+  }
+}

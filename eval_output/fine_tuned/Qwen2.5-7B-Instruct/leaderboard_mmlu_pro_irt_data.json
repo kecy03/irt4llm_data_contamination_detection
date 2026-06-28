@@ -1,0 +1,14 @@
+{
+  "model_id": "Qwen2.5-7B-Instruct",
+  "num_rows": 1000,
+  "num_skipped": 0,
+  "threshold": 0.5,
+  "seed": 42,
+  "metrics": {
+    "Accuracy": 0.652,
+    "Precision": 0.37598425196850394,
+    "Recall": 0.8603603603603603,
+    "F1": 0.5232876712328767,
+    "AUC": 0.7923411843720327
+  }
+}

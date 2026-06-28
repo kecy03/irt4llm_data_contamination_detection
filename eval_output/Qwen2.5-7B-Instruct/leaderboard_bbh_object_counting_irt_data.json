@@ -1,0 +1,14 @@
+{
+  "model_id": "DeepSeek-R1-Distill-Qwen-14B",
+  "num_rows": 250,
+  "num_skipped": 0,
+  "threshold": 0.5,
+  "seed": 42,
+  "metrics": {
+    "Accuracy": 0.736,
+    "Precision": 0.32857142857142857,
+    "Recall": 0.5476190476190477,
+    "F1": 0.4107142857142857,
+    "AUC": 0.7277930402930403
+  }
+}
