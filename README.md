@@ -2,7 +2,7 @@
 
 This repository contains an experimental pipeline for data contamination detection in large language models, centered on IRT-based detection, baseline comparison, and parameter-level contamination simulation.
 
-## Project Structure
+## 📁 Project Structure
 
 - `scripts/`
   Main scripts for leaderboard data export, contamination benchmark construction, IRT data building, IRT training, and IRT evaluation.
@@ -23,7 +23,7 @@ This repository contains an experimental pipeline for data contamination detecti
 - `CAT/`
   EduCAT-related implementation kept for the current IRT workflow.
 
-## IRT Pipeline
+## 📊 IRT Pipeline
 
 ### 1. Download or export a leaderboard task
 
@@ -96,7 +96,7 @@ python scripts/evaluate_irt_contamination.py \
   --model_id DeepSeek-R1-Distill-Qwen-14B
 ```
 
-## Poison-Only SFT Simulation
+## 🧬 Poison-Only SFT Simulation
 
 ### 1. Build poison-only SFT data
 
@@ -133,7 +133,7 @@ python fine_tuned/scripts/run_poison_inference.py \
   --output_path ./contamination_dataset/fine_tuned/Qwen2.5-7B-Instruct/mmlu_pro_500.jsonl
 ```
 
-## Baseline Evaluation
+## 🧭 Baseline Evaluation
 
 `baseline_test/` contains baseline methods used to compare against the IRT detector. In the current setup, the main entry point is `baseline_test/common_base.py`, which runs multiple methods in one pass and writes per-method summaries.
 
@@ -173,6 +173,7 @@ python fine_tuned/baseline_test/common_base.py \
 
 The baseline scripts automatically save row-level outputs and summary JSON files under their result directories.
 
-## Acknowledgment
+## 🙏 Acknowledgment
 
 This project builds on the EduCAT codebase. We thank [bigdata-ustc/EduCAT](https://github.com/bigdata-ustc/EduCAT) for releasing the original implementation.
+
